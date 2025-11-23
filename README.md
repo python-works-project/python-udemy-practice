@@ -10,6 +10,10 @@
 - [Chapter 1: Python基礎 (ログ)](logs/basic.md)  
 - [Chapter 1: Python基礎 (コード)](src/basic.py)
 
+- Chapter 1: Python基礎  
+  - [ログ](logs/basic.md)  
+  - [コード](src/basic.py)
+
 
 ---
 
