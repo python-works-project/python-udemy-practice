@@ -1,17 +1,44 @@
 # Chapter 1: Python基礎
 
 ## ターミナル実行ログ
-```python
->>> 'a is {}'.format('a') 
+# 基本的な format の使い方（{} に値を埋め込む）
+>>> 'a is {}'.format('a')  
 'a is a'
+
+# {} に別の文字列を埋め込む
 >>> 'a is {}'.format('test')
 'a is test'
+
+# 複数の値を埋め込む（位置は左から順に対応）
 >>> 'a is {} {} {}'.format(1,2,3)
 'a is 1 2 3'
+
+# インデックス指定で埋め込み（{0}, {1}, {2}）
 >>> 'a is {0} {1} {2}'.format(1,2,3)
 'a is 1 2 3'
+
+# インデックス指定を応用（同じ値を複数箇所に使える）
 >>> 'My name is {0} {1}.Watashiwa {1} {0} desu'.format('aaa','bbb')
 'My name is aaa bbb.Watashiwa bbb aaa desu'
->>> 'My name is {name} {family}. Watashiwa {family} {name} desu'.format(name='aaa',family='bbb') 
+
+# キーワード引数を使った埋め込み（{name}, {family}）
+>>> 'My name is {name} {family}. Watashiwa {family} {name} desu'.format(name='aaa',family='bbb')
 'My name is aaa bbb. Watashiwa bbb aaa desu'
->>> 
+
+# 数値そのものを表示
+>>> 1
+1
+
+# 文字列として表示
+>>> '2'
+'2'
+
+# 変数に数値を代入
+>>> x = 1
+
+# 数値を文字列に変換して代入
+>>> x = str(1)
+
+# 型を確認すると str 型になっている
+>>> type(x)
+<class 'str'>
