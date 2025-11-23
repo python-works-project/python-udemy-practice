@@ -14,12 +14,12 @@
 ## 📂 章一覧
 
 ### 📘 Chapter 1： Python基礎
-- 🗒️ [ログ：01_basic.md](logs/01_basic.md)  
-- 💻 [コード：01_basic.py](src/01_basic.py)
+- 🗒️ [ターミナルログ：01_log.md](logs/01_log.md)  
+- 💻 [VSCodeエディタ：01_src.md](src/01_src.md)
 
 ### 📗 Chapter 2： データ構造
-- 🗒️ [ログ：02_data_structures.md](logs/02_data_structures.md)  
-- 💻 [コード：02_data_structures.py](src/02_data_structures.py)
+- 🗒️ [ログ：02_log.md](logs/02_log.md)  
+- 💻 [コード：02_src.md](src/02_src.md)
 
 ---
 
