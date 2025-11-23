@@ -1,10 +1,8 @@
-# 📘 学習ログ：Basic
+# 📘 学習ログ：Pythonの基本
 
 ## 🗂️ 学習日・環境
 - 日付：2025年11月23日
-- 実行環境：VSCode + Python 3.11（venv使用）
-- ファイル名：`format.py`
-- 章リンク：[src/basic/format.py](../src/basic/format.py)
+- 実行環境：VSCode + Python 3.13.5（Anaconda）
 
 ---
 
