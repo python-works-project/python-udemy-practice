@@ -7,11 +7,9 @@
 
 ## 章一覧
 
-- [Chapter 1: Python基礎](logs/chapter01_basics.md)
-- [Chapter 2: 文字列操作](logs/chapter02_strings.md)
-- [Chapter 3: フォーマット方法](logs/chapter03_formatting.md)
-- [Chapter 4: 制御構文](logs/chapter04_control.md)
-- [Chapter 5: 関数とモジュール](logs/chapter05_functions.md)
+- [Chapter 1: Python基礎 (ログ)](logs/basic.md)  
+- [Chapter 1: Python基礎 (コード)](src/basic.py)
+
 
 ---
 
