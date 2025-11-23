@@ -1,14 +1,19 @@
-# Python学習ログ（2025年11月）
+# Python_study
 
-## 📅 学習期間
-2025年11月20日〜
+このリポジトリは、Udemy講座や書籍で学んだPythonコードを整理した学習ログです。  
+基礎からデータ分析まで、学習の進捗を記録しています。
 
-## 📚 使用教材
-- Progate（Python I〜III）
+## 構成
+- basics/ : Python基礎（変数・ループ・関数）
+- web_scraping/ : Webスクレイピングの練習コード
+- data_analysis/ : PandasやMatplotlibの練習コード
 
-## 🧠 学習内容
-- 変数、条件分岐、ループ、関数、リスト、辞書などを復習
-- スライド形式で理解しやすく、演習で定着できた
+## 環境
+- Python 3.8 (Anaconda)
+- VSCode
+
+## 今後の予定
+- 機械学習の練習コードを追加予定
 
 ## 🛠 演習コード
 - [code/01_variables.py](./code/01_variables.py)
