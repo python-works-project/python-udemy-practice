@@ -8,8 +8,8 @@
 ## 📂 章一覧
 
 - Chapter 1： Python基礎  
-  - [【ログ】　：01_basic.md](logs/01_basic.md)  
-  - [【コード】：01_basic.py](src/01_basic.py)
+  - [【 `logs/` 】　：01_basic.md](logs/01_basic.md)  
+  - [`src/`：01_basic.py](src/01_basic.py)
 
 - Chapter 2： データ構造  
   - [【ログ】　：02_data_structures.md](logs/02_data_structures.md)  
