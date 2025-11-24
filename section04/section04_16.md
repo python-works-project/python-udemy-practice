@@ -1,7 +1,7 @@
 ## 16. リスト型
 #### 💻 ターミナルで実行
 <div align="right">
-  <a href="../README.md">READMEへ戻る</a>
+  <a href="../README.md#16-リスト型">READMEに戻る</a>
 </div>
 
 ```bash
@@ -63,5 +63,5 @@
 3
 ```
 <div align="right">
-  <a href="../README.md">READMEへ戻る</a>
+  <a href="../README.md#16-リスト型">READMEに戻る</a>
 </div>
