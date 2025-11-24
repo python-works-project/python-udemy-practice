@@ -27,6 +27,7 @@
 #### [　　16. リスト型](section04/section04_16.md)  
 #### [　　17. リストの操作](section04/section04_17.md) 
 #### [　　18. リストのメソッド](section04/section04_18.md) 
+#### [　　19. リストのコピー](section04/section04_19.md) 
 
 
 **学習テーマ**: リスト  
