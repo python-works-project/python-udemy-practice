@@ -30,6 +30,15 @@
 #### [　　19. リストのコピー](section04/section04_19.md) 
 #### [　　20. リストの使い所](section04/section04_20.md) 
 #### [　　21. タプル](section04/section04_21.md) 
+#### [　　22. タプルのアンパッキング](section04/section04_22.md) 
+#### [　　23. タプルの使い所](section04/section04_23.md) 
+#### [　　24. 辞書型](section04/section04_24.md) 
+#### [　　25. 辞書型のメソッド](section04/section04_25.md) 
+#### [　　26. 辞書のコピー](section04/section04_26.md) 
+#### [　　27. 辞書の使い所](section04/section04_27.md) 
+#### [　　28. 集合型](section04/section04_28.md) 
+#### [　　29  集合型のメソッド](section04/section04_29.md) 
+#### [　　30. 集合型の使い所](section04/section04_30.md) 
 
 
 **学習テーマ**: リスト  
