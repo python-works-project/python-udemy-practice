@@ -1,5 +1,5 @@
 ## 11. 文字列
-#### 💻 VSCodeで実行
+#### 📝 VSCodeで実行
 <div align="right">
   <a href="../README.md">READMEへ戻る</a>
 </div>
