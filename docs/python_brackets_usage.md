@@ -1,6 +1,6 @@
 ## Pythonにおける (), [], {} の使い分け
 <div align="right">
-  <a href="../README.md#pythonにおける---の使い分け">READMEに戻る</a>
+  <a href="../README.md#その他">READMEに戻る</a>
 </div>
 
 ---
@@ -40,6 +40,6 @@
 - `{}` → 辞書、集合、内包表記
 
 <div align="right">
-  <a href="../README.md#Pythonにおける (), [], {} の使い分け">READMEに戻る</a>
+  <a href="../README.md#その他">READMEに戻る</a>
 </div>
 
