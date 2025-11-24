@@ -12,4 +12,5 @@
 ```
 ## 📝 学習のまとめ
 - Python 3.6よりf-stringsが使用できるように  
+
 [READMEへ戻る](../README.md)
