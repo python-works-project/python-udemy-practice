@@ -60,5 +60,5 @@
 
 ## その他
 ##### [　　Pythonにおける (), [], {} の使い分け](docs/python_brackets_usage.md) 
-##### [　　MarkDownファイルチートシート](docs/markdown_cheatsheet.csv) 
+##### [　　MarkDownファイルチートシート](docs/markdown_cheatsheet.md) 
 
