@@ -1,6 +1,9 @@
-## 💻 ターミナルで実行
-[READMEへ戻る](../README.md)
-### 14. 文字の代入
+## 14. 文字の代入
+#### 💻 ターミナルで実行
+<div align="right">
+  <a href="../README.md">READMEへ戻る</a>
+</div>
+
 ```bash
 # 基本的な format の使い方
 >>> 'a is {}'.format('a')
@@ -45,6 +48,9 @@
 >>> str(True)
 'True'
 ```
-[READMEへ戻る](../README.md)
 ## 📝 学習のまとめ
 - formatとは文字列の中に変数や値を埋め込むためのメソッド
+
+<div align="right">
+  <a href="../README.md">READMEへ戻る</a>
+</div>
