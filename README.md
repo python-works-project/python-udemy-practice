@@ -13,17 +13,21 @@
 
 ## 📂 章一覧
 
-### 📘 Chapter 1： Python基礎
-- 💻 [コード](src/chapter01_code.py)  
-- 🗒️ [実行ログ](logs/chapter01_log.md)  
-- 📑 [まとめ](docs/chapter01_summary.md)  
+### 📘 Section 3： Python基礎
+- 💻 [コード](src/section03_code.py)  
+- 🗒️ [実行ログ](logs/section03_log.md)  
+- 📑 [まとめ](docs/section03_summary.md)  
 
 **学習テーマ**: 変数・演算子・制御構文  
 **成果**: 基本的な構文を理解し、簡単な計算プログラムを作成
 
-### 📗 Chapter 2： データ構造
-- 🗒️ [ログ：02_log.md](logs/02_log.md)  
-- 💻 [コード：02_src.md](src/02_src.md)
+### 📗 Section 2： データ構造
+- 💻 [コード](src/section04_code.py)  
+- 🗒️ [実行ログ](logs/section04_log.md)  
+- 📑 [まとめ](docs/section04_summary.md)  
+
+**学習テーマ**: リスト  
+**成果**: 
 
 ---
 
