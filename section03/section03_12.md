@@ -1,6 +1,9 @@
-## 💻 VSCodeで実行
-[READMEへ戻る](../README.md)
-### 12. 文字列のインデックスとスライス
+## 12. 文字列のインデックスとスライス
+#### 💻 VSCodeで実行
+<div align="right">
+  <a href="../README.md">READMEへ戻る</a>
+</div>
+
 ```bash
 # --- インデックスとスライス ---
 word = 'python'
