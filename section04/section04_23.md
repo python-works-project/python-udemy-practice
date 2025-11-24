@@ -11,7 +11,7 @@ chose_from_two = ('A', 'B', 'C')
 # 回答を格納するためのリスト（ミュータブル：変更可能）
 answer = []
 answer.append('A')   # リストに 'A' を追加
-answer.append('c')   # リストに 'c' を追加（小文字）
+answer.append('C')   # リストに 'C' を追加
 
 # タプルは変更不可なので append() は使えない
 # chose_from_two = ['A', 'B', 'C']   # リストなら append() が可能
@@ -20,7 +20,8 @@ answer.append('c')   # リストに 'c' を追加（小文字）
 
 # 出力確認
 print(chose_from_two)   # ('A', 'B', 'C') → タプルのまま
-print(answer)           # ['A', 'c'] → リストに追加された結果```
+print(answer)           # ['A', 'c'] → リストに追加された結果
+```
 
 ## 📝 学習のまとめ
 - 要素を後から変更したくないときに使う
