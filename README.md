@@ -14,11 +14,11 @@
 ## 📂 章一覧
 
 ### 📘 Section 3： Python基礎
-- 🗒️ [11. 文字列](section03/section03_11.md)  
-- 🗒️ [12. 文字列のインデックスとスライス](section03/section03_12.md)  
-- 🗒️ [13. 文字のメソッド](section03/section03_13.md)  
-- 🗒️ [14. 文字の代入](section03/section03_14.md)  
-- 🗒️ [15. f-strings](section03/section03_15.md)  
+####  [　　11. 文字列](section03/section03_11.md)  
+####  [　　12. 文字列のインデックスとスライス](section03/section03_12.md)  
+####  [　　13. 文字のメソッド](section03/section03_13.md)  
+####  [　　14. 文字の代入](section03/section03_14.md)  
+####  [　　15. f-strings](section03/section03_15.md)  
 
 **学習テーマ**: 変数・演算子・制御構文  
 **成果**: 基本的な構文を理解し、簡単な計算プログラムを作成
