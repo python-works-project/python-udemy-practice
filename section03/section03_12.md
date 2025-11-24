@@ -21,4 +21,6 @@ print(word[:])     # 全体をスライス → 'jython'
 
 print(len(word))   # 文字列の長さ → 6
 ```
-[READMEへ戻る](../README.md)
+<div align="right">
+  <a href="../README.md">READMEへ戻る</a>
+</div>
