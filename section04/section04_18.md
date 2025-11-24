@@ -1,6 +1,9 @@
-## 💻 VSCodeで実行
-[READMEへ戻る](../README.md)
-### 18. リストのメソッド
+## 18. リストのメソッド
+#### 📝 VSCodeで実行
+<div align="right">
+  <a href="../README.md">READMEへ戻る</a>
+</div>
+
 ```bash
 # リストの準備
 r = [1,2,3,4,5,1,2,3]
@@ -24,6 +27,8 @@ print(r)               # 出力: [1, 1, 2, 2, 3, 3, 4, 5]
 
 ```
 ## 📝 学習のまとめ
-- Python 3.6よりf-stringsが使用できるように  
+- 
 
-[READMEへ戻る](../README.md)
+<div align="right">
+  <a href="../README.md">READMEへ戻る</a>
+</div>
