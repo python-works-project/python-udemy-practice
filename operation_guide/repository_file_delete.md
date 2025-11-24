@@ -13,20 +13,20 @@
 
 ### 手順（ターミナル）
 
-1. リポジトリのルートへ移動
+#### 1. リポジトリのルートへ移動
 ```bash
 cd chie-works
 ```
-2. ファイルを削除してステージング
+#### 2. ファイルを削除してステージング
 ```bash
 git rm section04/section03_code.py
 ```
 - ※もし単純に削除した場合は rm section04/section03_code.py → git add -u でステージング。
-3. コミット
+#### 3. コミット
 ```bash
 git commit -m "Remove section03_code.py from section04"
 ```
-4. リモートへプッシュ
+#### 4. リモートへプッシュ
 ```bash
 git push origin main
 ```
