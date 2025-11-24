@@ -1,4 +1,5 @@
 ## 💻 VSCodeで実行
+[READMEへ戻る](../README.md)
 ### 11. 文字列
 ```bash
 # --- 文字列のクォートの使い方 ---
@@ -31,4 +32,6 @@ print(s)
 
 ss = 'aaaaaaaaaaaaaaaaaaaaaaaa' \
      'bbbbbbbbbbbbbbbbbbbbbbbb'   # バックスラッシュで改行を継続
-print(ss)
+print(s)
+```
+[READMEへ戻る](../README.md)
