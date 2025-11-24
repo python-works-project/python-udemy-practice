@@ -1,6 +1,9 @@
-## 💻 VSCodeで実行
-[READMEへ戻る](../README.md)
-### 11. 文字列
+## 11. 文字列
+#### 💻 VSCodeで実行
+<div align="right">
+  <a href="../README.md">READMEへ戻る</a>
+</div>
+
 ```bash
 # --- 文字列のクォートの使い方 ---
 print("I don't know")              # ダブルクォートで囲めば、内部のシングルクォートをそのまま使える
@@ -34,4 +37,6 @@ ss = 'aaaaaaaaaaaaaaaaaaaaaaaa' \
      'bbbbbbbbbbbbbbbbbbbbbbbb'   # バックスラッシュで改行を継続
 print(s)
 ```
-[READMEへ戻る](../README.md)
+<div align="right">
+  <a href="../README.md">READMEへ戻る</a>
+</div>
