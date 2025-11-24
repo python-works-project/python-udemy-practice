@@ -1,7 +1,7 @@
 ## 13. 文字のメソッド
 #### 📝 VSCodeで実行
 <div align="right">
-  <a href="../README.md">READMEへ戻る</a>
+  <a href="../README.md#13-文字のメソッド">READMEに戻る</a>
 </div>
 
 ```bash
@@ -26,5 +26,5 @@ print(s.lower())                # 全て小文字 → 'my name is mike. hi mike.
 print(s.replace('Mike','Nancy'))# 'Mike' を 'Nancy' に置換
 ```
 <div align="right">
-  <a href="../README.md">READMEへ戻る</a>
+  <a href="../README.md#13-文字のメソッド">READMEに戻る</a>
 </div>
