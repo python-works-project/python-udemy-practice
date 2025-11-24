@@ -1,6 +1,9 @@
-## 💻 VSCodeで実行
-[READMEへ戻る](../README.md)
-### 13. 文字のメソッド
+## 13. 文字のメソッド
+#### 💻 VSCodeで実行
+<div align="right">
+  <a href="../README.md">READMEへ戻る</a>
+</div>
+
 ```bash
 # --- 文字列メソッド ---
 s = 'My name is Mike. Hi Mike.'
