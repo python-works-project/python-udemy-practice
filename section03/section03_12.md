@@ -1,7 +1,7 @@
 ## 12. 文字列のインデックスとスライス
 #### 📝 VSCodeで実行
 <div align="right">
-  <a href="../README.md">READMEへ戻る</a>
+  <a href="../README.md#12-文字列のインデックスとスライス">READMEに戻る</a>
 </div>
 
 ```bash
@@ -22,5 +22,5 @@ print(word[:])     # 全体をスライス → 'jython'
 print(len(word))   # 文字列の長さ → 6
 ```
 <div align="right">
-  <a href="../README.md">READMEへ戻る</a>
+  <a href="../README.md#12-文字列のインデックスとスライス">READMEに戻る</a>
 </div>
