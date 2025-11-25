@@ -2,9 +2,10 @@
 <div align="right">
   <a href="../README.md#section5">READMEに戻る</a>
 </div>
+
 ---
 
-## 📝 VSCode デバッガ使い方
+## 📝 VSCode デバッガ使い方 まとめ
 
 1. デバッグ開始
 - .py ファイルを開く
