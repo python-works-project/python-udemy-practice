@@ -13,6 +13,18 @@
 
 ## 📂 章一覧
 
+<details>
+<summary>📝 Section 3： Python基礎</summary>
+
+#####  [　　11. 文字列](section03/section03_11.md)  
+#####  [　　12. 文字列のインデックスとスライス](section03/section03_12.md)  
+#####  [　　13. 文字のメソッド](section03/section03_13.md)  
+#####  [　　14. 文字の代入](section03/section03_14.md)  
+#####  [　　15. f-strings](section03/section03_15.md)  
+
+</details>
+
+
 ### 📝  Section 3： Python基礎
 #####  [　　11. 文字列](section03/section03_11.md)  
 #####  [　　12. 文字列のインデックスとスライス](section03/section03_12.md)  
