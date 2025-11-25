@@ -17,9 +17,7 @@
  各ページには [READMEへ戻る] のリンクを設けており、再びこの一覧に戻ることが可能です。<br>
  ただし GitHub の仕様上、リンク先から戻った際には折り畳み表示が再び閉じた状態になります。 
 </small>
-
 <br><br>
-
 <details>
 <summary id="section3">📝 Section 3： Python基礎 🔽</summary>
 
