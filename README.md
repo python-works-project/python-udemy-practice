@@ -5,13 +5,18 @@
 
 ---
 
-## 1. 目的
+## １. 目的
 - 学習の進捗管理  
 - ポートフォリオとして活用  
 
 ---
+## ２. 環境
+-  Python 3.13.5 (Anaconda)  
+-  Visual Studio Code  
+-  Windows 11 (64bit)
+---
 
-## 2. 学習内容
+## ３. 学習内容
 <small>
  🔽をクリックするとリンク一覧が展開され、そこから学習したコードにアクセスできます。<br>
  各ページには [READMEへ戻る] のリンクを設けており、再びこの一覧に戻ることが可能です。<br>
@@ -176,12 +181,7 @@
 
 ---
 
-## 3. 環境
--  Python 3.13.5 (Anaconda)  
--  Visual Studio Code  
--  Windows 11 (64bit)
-
-## 4. その他
+## ４. その他
 ##### [　　Pythonにおける (), [], {} の使い分け](docs/python_brackets_usage.md) 
 ##### [　　MarkDownファイルチートシート](docs/markdown_cheatsheet.md) 
 
