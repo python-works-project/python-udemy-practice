@@ -1,7 +1,7 @@
 ## 30. 集合型の使い所
 #### 📝 VSCodeで実行
 <div align="right">
-  <a href="../README.md#30-集合型の使い所">READMEに戻る</a>
+  <a href="../README.md#section4">READMEに戻る</a>
 </div>
 
 
@@ -26,7 +26,7 @@ print(kind)  # {'apple', 'banana'}
 ```
 
 <div align="right">
-  <a href="../README.md#30-集合型の使い所">READMEに戻る</a>
+  <a href="../README.md#section4">READMEに戻る</a>
 </div>
 
 
