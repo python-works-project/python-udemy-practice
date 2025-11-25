@@ -1,7 +1,7 @@
 ## 16. リスト型
 #### 💻 ターミナルで実行
 <div align="right">
-  <a href="../README.md#16-リスト型">READMEに戻る</a>
+  <a href="../README.md#section4">READMEに戻る</a>
 </div>
 
 ```bash
@@ -88,5 +88,5 @@ lst = [x**2 for x in range(5)]   # [0, 1, 4, 9, 16]
 ```
 
 <div align="right">
-  <a href="../README.md#16-リスト型">READMEに戻る</a>
+  <a href="../README.md#section4">READMEに戻る</a>
 </div>
