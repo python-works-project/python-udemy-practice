@@ -20,7 +20,7 @@
  （一覧の可読性と操作性を両立するための工夫です）
 
 <details>
-<summary>📝 Section 3： Python基礎</summary>
+<summary id="section3">📝 Section 3： Python基礎</summary>
 
 #####  [　　11. 文字列](section03/section03_11.md)  
 #####  [　　12. 文字列のインデックスとスライス](section03/section03_12.md)  
@@ -30,7 +30,7 @@
 </details>
 
 <details>
-<summary>📝  Section 4： データ構造</summary>
+<summary id="section4">📝  Section 4： データ構造</summary>
  
 ##### [　　16. リスト型](section04/section04_16.md)  
 ##### [　　17. リストの操作](section04/section04_17.md) 
@@ -50,7 +50,7 @@
 </details>
 
 <details>
-<summary>📝  Section 5： 制御フローとコード構造</summary>
+<summary id="section5">📝  Section 5： 制御フローとコード構造</summary>
  
 ##### [　　31. コメント](section05/section05_31.md)  
 ##### [　　32. 1行が長くなる時](section05/section05_32.md)  
@@ -91,82 +91,87 @@
 </details>
 
 <details>
-<summary>📝  Section 6： モジュールとパッケージ</summary>
+<summary id="section6">📝  Section 6： モジュールとパッケージ</summary>
  
 </details>
 
 <details>
-<summary>📝  Section 8： ファイル操作とシステム</summary>
+<summary id="section7">📝  Section 7： オブジェクトとクラス</summary>
  
 </details>
 
 <details>
-<summary>📝  Section 9： 演習</summary>
+<summary id="section8">📝  Section 8： ファイル操作とシステム</summary>
  
 </details>
 
 <details>
-<summary>📝  Section 10： コードスタイル</summary>
+<summary id="section9">📝  Section 9： 演習</summary>
  
 </details>
 
 <details>
-<summary>📝  Section 11： コンフィグとロギング</summary>
+<summary id="section10">📝  Section 10： コードスタイル</summary>
  
 </details>
 
 <details>
-<summary>📝  Section 12： データベース</summary>
+<summary id="section11">📝  Section 11： コンフィグとロギング</summary>
  
 </details>
 
 <details>
-<summary>📝  Section 13： WEBとネットワーク</summary>
+<summary id="section12">📝  Section 12： データベース</summary>
  
 </details>
 
 <details>
-<summary>📝  Section 14： テスト</summary>
+<summary id="section13">📝  Section 13： WEBとネットワーク</summary>
  
 </details>
 
 <details>
-<summary>📝  Section 15： 並列化</summary>
+<summary id="section14">📝  Section 14： テスト</summary>
  
 </details>
 
 <details>
-<summary>📝  Section 16： 暗号化</summary>
+<summary id="section15">📝  Section 15： 並列化</summary>
  
 </details>
 
 <details>
-<summary>📝  Section 17： インフラ構築自動化</summary>
+<summary id="section16">📝  Section 16： 暗号化</summary>
  
 </details>
 
 <details>
-<summary>📝  Section 18： Pythonの便利なライブラリ、ツール、豆知識</summary>
+<summary id="section17">📝  Section 17： インフラ構築自動化</summary>
  
 </details>
 
 <details>
-<summary>📝  Section 19： グラフィックス</summary>
+<summary id="section18">📝  Section 18： Pythonの便利なライブラリ、ツール、豆知識</summary>
  
 </details>
 
 <details>
-<summary>📝  Section 20： データ更新</summary>
+<summary id="section19">📝  Section 19： グラフィックス</summary>
  
 </details>
 
 <details>
-<summary>📝  Section 21： キューイングシステム</summary>
+<summary id="section20">📝  Section 20： データ更新</summary>
  
 </details>
 
 <details>
-<summary>📝  Section 22： 非同期処理　asynico</summary>
+<summary id="section21">📝  Section 21： キューイングシステム</summary>
+ 
+</details>
+
+<details>
+<summary id="section22">📝  Section 22： 非同期処理　asynico</summary>
 
 </details>
 
