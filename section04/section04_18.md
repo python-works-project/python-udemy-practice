@@ -1,7 +1,7 @@
 ## 18. リストのメソッド
 #### 📝 VSCodeで実行
 <div align="right">
-  <a href="../README.md#18-リストのメソッド">READMEに戻る</a>
+  <a href="../README.md#section4">READMEに戻る</a>
 </div>
 
 ```bash
@@ -45,5 +45,5 @@ print(help(list))
 
 ```
 <div align="right">
-  <a href="../README.md#18-リストのメソッド">READMEに戻る</a>
+  <a href="../README.md#section4">READMEに戻る</a>
 </div>
