@@ -1,6 +1,5 @@
 ## 28. 集合型
 #### 📝 VSCodeで実行
-#### 💻 ターミナルで実行
 <div align="right">
   <a href="../README.md#section4">READMEに戻る</a>
 </div>
