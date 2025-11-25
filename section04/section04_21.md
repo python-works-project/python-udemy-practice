@@ -1,7 +1,7 @@
 ## 21. タプル
 #### 💻 ターミナルで実行
 <div align="right">
-  <a href="../README.md#21-タプル">READMEに戻る</a>
+  <a href="../README.md#section4">READMEに戻る</a>
 </div>
 
 
@@ -102,7 +102,7 @@ t = (1, 2) + (3, 4)    # (1, 2, 3, 4)
 
 
 <div align="right">
-  <a href="../README.md#21-タプル">READMEに戻る</a>
+  <a href="../README.md#section4">READMEに戻る</a>
 </div>
 
 
