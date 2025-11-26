@@ -4,8 +4,7 @@
   <a href="../README.md#section4">READMEに戻る</a>
 </div>
 
-
-```bash
+```python
 # リストを代入すると「参照」が渡される
 i = [1,2,3,4,5]
 j = i              # jはiと同じリストを参照
