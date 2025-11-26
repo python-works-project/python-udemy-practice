@@ -4,8 +4,7 @@
   <a href="../README.md#section4">READMEに戻る</a>
 </div>
 
-
-```bash
+```python
 # 辞書を作成
 x = {'a': 1}
 
