@@ -1,6 +1,6 @@
 # Markdown チートシート
 <div align="right">
-  <a href="../README.md#MarkDownファイルチートシート">READMEに戻る</a>
+  <a href="../README.md#４-その他">READMEに戻る</a>
 </div>
 
 ---
@@ -49,6 +49,9 @@
 
 ## コード（複数行）
 - 記法:
+
+---
+
 <div align="right">
-  <a href="../README.md#MarkDownファイルチートシート">READMEに戻る</a>
+  <a href="../README.md#４-その他">READMEに戻る</a>
 </div>
