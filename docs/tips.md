@@ -4,8 +4,6 @@
   <a href="../README.md#section5">READMEに戻る</a>
 </div>
 
----
-
 ## 目次  <!-- ★ここに目次を置く -->
 - [type() と help() の使い分け](#-type--と-help--の使い分け)
 - [is not と != の使い分け](#-is-not-と--の使い分け)
