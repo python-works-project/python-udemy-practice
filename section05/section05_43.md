@@ -5,10 +5,16 @@
 </div>
 
 ```Python
-
+# for else
+for fruit in ['apple', 'banana', 'orange']:
+    if fruit == 'banana':
+        print('stop eating')
+        break
+    print(fruit)
+else:
+    print('I ate all!')
 ```
-## 📝 学習のまとめ
-- 
+ 
 
 <div align="right">
   <a href="../README.md#section5">READMEに戻る</a>
