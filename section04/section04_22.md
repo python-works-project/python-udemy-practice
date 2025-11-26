@@ -4,7 +4,7 @@
   <a href="../README.md#section4">READMEに戻る</a>
 </div>
 
-```bash
+```python
 # タプルを作成
 num_tuple = (10,20)
 print(num_tuple)       # (10, 20)
