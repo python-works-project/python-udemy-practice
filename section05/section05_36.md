@@ -4,7 +4,7 @@
   <a href="../README.md#section5">READMEに戻る</a>
 </div>
 
-```bash
+```python
 y = [1, 2, 3]
 
 # x が y に含まれているかどうかを判定
