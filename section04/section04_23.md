@@ -4,7 +4,7 @@
   <a href="../README.md#section4">READMEに戻る</a>
 </div>
 
-```bash
+```python
 # タプルの定義（イミュータブル：変更不可）
 chose_from_two = ('A', 'B', 'C')
 
