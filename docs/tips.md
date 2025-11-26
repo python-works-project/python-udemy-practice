@@ -1,28 +1,36 @@
 ## 💡Python補足メモ
+このページでは、Python学習の中で出てきた補足事項やVSCodeの操作方法など、
+理解を深めるためのポイントを簡潔にまとめています。
 
-Python学習で役立つ補足情報や操作のポイントをまとめたメモです。
 
 <div align="right">
   <a href="../README.md#４-その他">READMEに戻る</a>
 </div>
 
-## 目次
-- [type() と help() の使い分け](#type-help)
-- [is not と != の使い分け](#isnot-noteq)
-- [VSCodeの全画面表示の解除方法](#vscode-fullscreen-exit)
+---
+
+## 目次  <!-- ★ここに目次を置く -->
+- [type() と help() の使い分け](#-type--と-help--の使い分け)
+- [is not と != の使い分け](#-is-not-と--の使い分け)
+- [VSCodeの全画面表示解除](#vscodeの全画面表示解除)
 
 ---
 
-### 🔸 type() と help() の使い分け {#type-help}
-- **type(obj):** 型を返す（例: <class 'NoneType'>）
-- **help(obj):** ドキュメントを表示（メソッド一覧や詳しい説明）
+### 🔸 type() と help() の使い分け
+- `type(obj)` → 型を返す（例: `<class 'NoneType'>`）：型を調べたいとき  
+- `help(obj)` → 型やオブジェクトのドキュメントを表示：詳しい説明やメソッド一覧を知りたいとき  
 
-### 🔸 is not と != の使い分け {#isnot-noteq}
-- **!=:** 値が等しくないかを判定（例: 1 != 2 → True）
-- **is not:** 同一オブジェクトでないかを判定（例: [] is not [] → True）
+### 🔸 is not と != の使い分け
+- `!=` → 値が等しくないかどうかを判定  
+  例: `1 != 2` → True（値が異なる）  
+- `is not` → 同じオブジェクトではないかどうかを判定  
+  例: `[] is not []` → True（別々に作られたリストなので同一オブジェクトではない）  
 
-### 🔸 VSCodeの全画面表示の解除方法 {#vscode-fullscreen-exit}
-- **フルスクリーン解除:** F11 キーを押下
+### 🔸 VSCodeの全画面表示解除
+- フルスクリーン解除：**F11** キーを押下する
+
+
+---
 
 <div align="right">
   <a href="../README.md#４-その他">READMEに戻る</a>
