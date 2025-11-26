@@ -34,7 +34,7 @@
 
 ---
 
-<a href="#💡python補足メモ">TOPに戻る</a>
 <div align="right">
+  <a href="#python補足メモ">TOPに戻る</a>
   <a href="../README.md#４-その他">READMEに戻る</a>
 </div>
