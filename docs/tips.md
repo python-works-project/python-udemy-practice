@@ -1,7 +1,7 @@
 ## 💡Python補足メモ
 
 <div align="right">
-  <a href="../README.md#４-その他">４. その他に戻る</a>
+  <a href="../README.md#４-その他">READMEに戻る</a>
 </div>
 
 ## 目次  <!-- ★ここに目次を置く -->
@@ -22,5 +22,5 @@
   例: [] is not [] → True（別々に作られたリストなので同一オブジェクトではない）  
 
 <div align="right">
-  <a href="../README.md#４-その他">４. その他に戻る</a>
+  <a href="../README.md#４-その他">READMEに戻る</a>
 </div>
