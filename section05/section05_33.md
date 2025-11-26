@@ -1,11 +1,10 @@
-## . 
+## 33. If文
 #### 📝 VSCodeで実行
 <div align="right">
   <a href="../README.md#section5">READMEに戻る</a>
 </div>
 
-```bash
-
+```python
 # if 文で条件分岐
 x = -10
 if x < 0:
