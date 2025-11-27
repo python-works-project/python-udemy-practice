@@ -1,7 +1,7 @@
 ## 15. f-strings
 #### 💻 ターミナルで実行
 <div align="right">
-  <a href="../README.md#section3">READMEに戻る</a>
+  <a href="../README.md#section3">◀️READMEに戻る</a>
 </div>
 
 ```bash
@@ -17,5 +17,5 @@
 - Python 3.6よりf-stringsが使用できるように  
 
 <div align="right">
-  <a href="../README.md#section3">READMEに戻る</a>
+  <a href="../README.md#section3">◀️READMEに戻る</a>
 </div>
