@@ -1,7 +1,7 @@
 ## 37. 値が入っていない判定をするテクニック
 #### 🖥 VSCodeで実行
 <div align="right">
-  <a href="../README.md#section5">READMEに戻る</a>
+  <a href="../README.md#section5">◀️READMEに戻る</a>
 </div>
 
 ```python
@@ -70,5 +70,5 @@ else:
 ```
 
 <div align="right">
-  <a href="../README.md#section5">READMEに戻る</a>
+  <a href="../README.md#section5">◀️READMEに戻る</a>
 </div>
