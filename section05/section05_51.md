@@ -43,14 +43,16 @@ print(r)  # [100] ← 毎回新しいリストが作られるので安心
 ## 📝 学習のまとめ
 #### デフォルト引数の注意点
 ```python
-def test_func(x, l=[]):  # 危険な例
+# 危険な例
+def test_func(x, l=[]):  
     l.append(x)
     return l
 ```
 - デフォルトのリストは 関数定義時に一度だけ作られ、再利用される
 - 呼び出しのたびに前回の結果が残る → バグの原因
-安全な書き方：
+
 ```python
+# 安全な書き方
 def test_func(x, l=None):
     if l is None:
         l = []
