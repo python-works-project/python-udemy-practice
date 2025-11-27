@@ -5,11 +5,12 @@
 </div>
 
 ```python
+# リストの要素を順に出力
 l = ['Good morning', 'Good afternoon', 'Good night']
 
-# リストの要素を順に出力
 for i in l:
     print(i)
+# この場合は一気に最後まで処理
 ```
 ```python
 # ジェネレータ関数の定義
