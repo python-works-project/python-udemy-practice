@@ -1,5 +1,5 @@
 ## 47. 辞書をfor文で処理する
-#### 📝 VSCodeで実行
+#### 🖥 VSCodeで実行
 <div align="right">
   <a href="../README.md#section5">READMEに戻る</a>
 </div>
@@ -18,8 +18,8 @@ for k, v in d.items():
 # items() は (キー, 値) のタプルの集合を返す
 print(d.items())
 ```
-## 📝 学習のまとめ
-#### items() の特徴
+## ✨ 学習のまとめ
+**items() の特徴**
 - items() の返り値は dict_items（辞書の内容を映すビューオブジェクト）
 - リストではないが イテラブル（反復可能） なので for k, v in d.items(): のようにループできる
 - インデックスアクセス（items[0]）はできない
