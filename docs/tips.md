@@ -5,7 +5,7 @@
 
 
 <div align="right">
-  <a href="../README.md#４-その他">READMEに戻る</a>
+  <a href="../README.md#４-その他">◀️READMEに戻る</a>
 </div>
 
 ---
