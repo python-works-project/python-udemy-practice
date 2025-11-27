@@ -40,24 +40,26 @@ change_words(l, lambda word: word.lower())
 f = lambda x: x * 2
 print(f(5))  # → 10
 ```
+
 2. 特徴
 - 名前を付けなくても関数を作れる
 - 1行で書ける（複雑な処理には不向き）
 - 戻り値は式の結果（return は不要）
+
 3. よく使う場面
-- 関数を引数に渡すとき
+**関数を引数に渡すとき**
 ```python
 l = ["Mon", "tue", "Wed"]
 print(list(map(lambda w: w.lower(), l)))
 # → ['mon', 'tue', 'wed']
 ```
-- ソートのキー指定
+**ソートのキー指定**
 ```python
 data = [("apple", 3), ("banana", 1), ("cherry", 2)]
 data.sort(key=lambda x: x[1])
 print(data)  # → [('banana', 1), ('cherry', 2), ('apple', 3)]
 ```
-- 簡単な関数を一時的に使いたいとき
+**簡単な関数を一時的に使いたいとき**
 ```python
 print((lambda x, y: x + y)(10, 20))  # → 30
 ```
