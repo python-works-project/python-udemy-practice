@@ -20,7 +20,3 @@ print(example_func.__doc__)
 # help() を使うと docstring が整形されて表示される
 help(example_func)
 ```
-
-<div align="right">
-  <a href="../README.md#section5">◀️READMEに戻る</a>
-</div>
