@@ -1,7 +1,7 @@
 ## 20. リストの使い所
 #### 💻 ターミナルで実行
 <div align="right">
-  <a href="../README.md#section4">READMEに戻る</a>
+  <a href="../README.md#section4">◀️READMEに戻る</a>
 </div>
 
 ```bash
@@ -38,7 +38,7 @@ min <= len(seat) < max   # len(seat) = 4 → True
 ```
 
 <div align="right">
-  <a href="../README.md#section4">READMEに戻る</a>
+  <a href="../README.md#section4">◀️READMEに戻る</a>
 </div>
 
 
