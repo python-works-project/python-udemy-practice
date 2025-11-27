@@ -1,5 +1,5 @@
 ## 44. range関数
-#### 📝 VSCodeで実行
+#### 🖥 VSCodeで実行
 <div align="right">
   <a href="../README.md#section5">READMEに戻る</a>
 </div>
@@ -29,7 +29,7 @@ for i in range(10):
 for _ in range(10):
     print('Hello')
 ```
-## 📝 学習のまとめ
+## ✨ 学習のまとめ
 - `for _ in range(n):` と書くことで、ループ変数を使わずに繰り返し処理ができる  
 - `_` は「値を使わない」ことを示す慣習的な書き方  
 - 例: 10回だけ同じ処理を繰り返す
