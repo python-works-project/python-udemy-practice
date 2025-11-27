@@ -1,7 +1,7 @@
 ## 23. タプルの使い所
 #### 🖥 VSCodeで実行
 <div align="right">
-  <a href="../README.md#section4">READMEに戻る</a>
+  <a href="../README.md#section4">◀️READMEに戻る</a>
 </div>
 
 ```python
@@ -28,7 +28,7 @@ print(answer)           # ['A', 'c'] → リストに追加された結果
 - データを固定して安全に保持したい場面に適している
 
 <div align="right">
-  <a href="../README.md#section4">READMEに戻る</a>
+  <a href="../README.md#section4">◀️READMEに戻る</a>
 </div>
 
 
