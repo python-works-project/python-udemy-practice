@@ -1,7 +1,7 @@
 ## 26. 辞書のコピー
 #### 🖥 VSCodeで実行
 <div align="right">
-  <a href="../README.md#section4">READMEに戻る</a>
+  <a href="../README.md#section4">◀️READMEに戻る</a>
 </div>
 
 ```python
@@ -34,7 +34,7 @@ print(y)  # {'a': 1000}
 ```
 
 <div align="right">
-  <a href="../README.md#section4">READMEに戻る</a>
+  <a href="../README.md#section4">◀️READMEに戻る</a>
 </div>
 
 
