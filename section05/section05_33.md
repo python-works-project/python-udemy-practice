@@ -1,5 +1,5 @@
 ## 33. If文
-#### 📝 VSCodeで実行
+#### 🖥 VSCodeで実行
 <div align="right">
   <a href="../README.md#section5">READMEに戻る</a>
 </div>
@@ -29,7 +29,7 @@ if a > 0:
     if b > 0:
         print('b = positive')
 ```
-## 📝 学習のまとめ
+## ✨ 学習のまとめ
 - Pythonでは、インデント（字下げ）が正しく揃っていないと構文エラーになる
 
 <div align="right">
