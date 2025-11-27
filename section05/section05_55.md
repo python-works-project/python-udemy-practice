@@ -1,7 +1,7 @@
 ## 55. 関数内関数
 #### 🖥 VSCodeで実行
 <div align="right">
-  <a href="../README.md#section5">READMEに戻る</a>
+  <a href="../README.md#section5">◀️READMEに戻る</a>
 </div>
 
 ```python
@@ -18,9 +18,4 @@ def outer(a, b):
 # outer を呼び出す
 outer(1, 2)
 ```
-
-<div align="right">
-  <a href="../README.md#section5">READMEに戻る</a>
-</div>
-
 
