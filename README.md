@@ -1,3 +1,4 @@
+<a id="top"></a>
 # 🐍 Python 学習ログ
 
 このリポジトリでは、講座の章ごとに学習ログをまとめています。  
@@ -186,5 +187,5 @@
 - [Pythonにおける (), [], {} の使い分け](docs/python_brackets_usage.md) 
 - [MarkDownファイルチートシート](docs/markdown_cheatsheet.md)
 
-<a href="#">🔼 TOPに戻る</a>
+<div align="right"><a href="#top">🔼 TOPに戻る</a></div>
 
