@@ -5,39 +5,41 @@
 </div>
 
 ```python
-t = (1, 2, 3, 4, 5)
-t2 = (5, 6, 7, 8, 9)
-```
-```python
+t = (1, 2, 3, 4, 5)      # 元のタプル
+t2 = (5, 6, 7, 8, 9)     # 掛け算用のタプル
+
+# --- タプルの要素をリストにコピー ---
 r = []
-for i in t:
-    r.append(i)
+for i in t:              # tの要素を順に取り出す
+    r.append(i)          # リストに追加
 print(r)   # [1, 2, 3, 4, 5]
 
-# リスト内包表記
-r = [i for i in t]
+# リスト内包表記で同じ処理
+r = [i for i in t]       # tの要素をそのままリスト化
 print(r)   # [1, 2, 3, 4, 5]
-```
-```python
+
+
+# --- 偶数だけ抽出 ---
 r = []
-for i in t:
-    if i % 2 == 0:
+for i in t:              # tの要素を順に取り出す
+    if i % 2 == 0:       # 偶数なら追加
         r.append(i)
 print(r)   # [2, 4]
 
-# リスト内包表記
-r = [i for i in t if i % 2 == 0]
+# リスト内包表記で同じ処理
+r = [i for i in t if i % 2 == 0]   # 偶数のみリスト化
 print(r)   # [2, 4]
-```
-```python
+
+
+# --- 2つのタプルの全組み合わせで掛け算 ---
 r = []
-for i in t:
-    for j in t2:
-        r.append(i * j)
+for i in t:              # tの要素を順に取り出す
+    for j in t2:         # t2の要素を順に取り出す
+        r.append(i * j)  # 掛け算結果を追加
 print(r)   # [5,6,7,8,9,10,...,45]
 
-# リスト内包表記
-r = [i * j for i in t for j in t2]
+# リスト内包表記で同じ処理
+r = [i * j for i in t for j in t2]   # 全組み合わせの積をリスト化
 print(r)   # [5,6,7,8,9,10,...,45]
 ```
 ## ✨ 学習のまとめ
