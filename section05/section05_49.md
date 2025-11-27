@@ -1,7 +1,7 @@
 ## 49. 関数の引数と返り値の宣言
 #### 🖥 VSCodeで実行
 <div align="right">
-  <a href="../README.md#section5">READMEに戻る</a>
+  <a href="../README.md#section5">◀️READMEに戻る</a>
 </div>
 
 ```python
@@ -33,5 +33,5 @@ print(r)  # 'ab'（文字列連結になる）
  
 
 <div align="right">
-  <a href="../README.md#section5">READMEに戻る</a>
+  <a href="../README.md#section5">◀️READMEに戻る</a>
 </div>
