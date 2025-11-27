@@ -86,7 +86,7 @@
 - [58. ラムダ](section05/section05_58.md)  
 - [59. ジェネレーター](section05/section05_59.md)  
 - [60. リスト内包表記](section05/section05_60.md)  
-- [61. 辞書包括表記](section05/section05_61.md)  
+- [61. 辞書内包表記](section05/section05_61.md)  
 - [62. 集合内包表記](section05/section05_62.md)  
 - [63. ジェネレーター内包表記](section05/section05_63.md)  
 - [64. 名前空間とスコープ](section05/section05_64.md)  
