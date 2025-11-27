@@ -20,7 +20,3 @@ test
 """
 print('DDDDD')
 ```
-
-<div align="right">
-  <a href="../README.md#section5">◀️READMEに戻る</a>
-</div>
