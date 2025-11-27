@@ -37,7 +37,7 @@ print('@@@@')    # 途中で別の処理を挟める
 print(next(g))   # 3つ目の要素
 ```
 ```python
-# カウンタ用ジェネレータ
+# 複数ジェネレーターとStopIterationが発生する場合
 def counter(num=10):
     for _ in range(num):
         yield 'run'
@@ -67,7 +67,22 @@ print(next(g))   # StopIteration発生（要素が尽きる）
 
 ```
 ## ✨ 学習のまとめ
-- 
+- ジェネレーターは「逐次的に値を返す関数」
+- 関数内で値を返すのに return ではなく yield を使用
+**基本構文**
+```ptrhon
+def count_up_to(n):
+    i = 1
+    while i <= n:
+        yield i  # ここで一時停止し、次の反復で再開
+        i += 1
+
+for x in count_up_to(5):
+    print(x)  # 1 2 3 4 5
+``` 
+- 停止と再開: yield 到達で関数状態（ローカル変数・実行位置）を保持したまま停止し、次の反復で続きから再開
+- 遅延評価: 必要なときにだけ次の値を生成。巨大リストを作らずメモリを節約
+- イテラブル: ジェネレーターはイテレータ（iter と next を持つ）として扱える
 
 <div align="right">
   <a href="../README.md#section5">READMEに戻る</a>
