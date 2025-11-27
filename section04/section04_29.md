@@ -1,7 +1,7 @@
 ## 29. 集合型のメソッド
 #### 💻 ターミナルで実行
 <div align="right">
-  <a href="../README.md#section4">READMEに戻る</a>
+  <a href="../README.md#section4">◀️READMEに戻る</a>
 </div>
 
 
@@ -42,7 +42,7 @@ print(a)            # {} → 空の辞書を表す
 ```
 
 <div align="right">
-  <a href="../README.md#section4">READMEに戻る</a>
+  <a href="../README.md#section4">◀️READMEに戻る</a>
 </div>
 
 
