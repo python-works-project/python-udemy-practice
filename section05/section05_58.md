@@ -34,8 +34,7 @@ change_words(l, lambda word: word.lower())
 ## ✨ 学習のまとめ
 1. 基本
 - ラムダ式は「無名関数」を作るための簡潔な書き方
-- 書式：
-`lambda 引数: 式`
+- 書式：`lambda 引数: 式`
 ```
 f = lambda x: x * 2
 print(f(5))  # → 10
