@@ -51,8 +51,6 @@ def menu(food, **kwargs, *args):  # ❌ 順序が逆なのでエラー
     print(args)
     print(kwargs)
 ```
-## ✨ 学習のまとめ
-- 
 
 <div align="right">
   <a href="../README.md#section5">READMEに戻る</a>
