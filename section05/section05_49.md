@@ -4,7 +4,7 @@
   <a href="../README.md#section5">READMEに戻る</a>
 </div>
 
-```bash
+```python
 
 ```
 ## 📝 学習のまとめ
