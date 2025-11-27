@@ -28,7 +28,7 @@ s = {i for i in range(10) if i % 2 == 0}   # 偶数のみ集合に追加
 print(s)   # {0,2,4,6,8}
 ```
 ## ✨ 学習のまとめ
--  基本構文：`{式 for 変数 in イテラブル if 条件}
+-  基本構文：`{式 for 変数 in イテラブル if 条件}`
 
 **単純な集合生成**
 ```python
@@ -47,7 +47,6 @@ print(s)  # {0, 2, 4, 6, 8}
 s = {i for i in range(10) if i % 2 == 0}
 print(s)  # {0, 2, 4, 6, 8}
 ```
-
 
 <div align="right">
   <a href="../README.md#section5">READMEに戻る</a>
