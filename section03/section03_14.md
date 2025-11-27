@@ -1,7 +1,7 @@
 ## 14. 文字の代入
 #### 💻 ターミナルで実行
 <div align="right">
-  <a href="../README.md#section3">READMEに戻る</a>
+  <a href="../README.md#section3">◀️READMEに戻る</a>
 </div>
 
 ```bash
@@ -52,5 +52,5 @@
 - formatとは文字列の中に変数や値を埋め込むためのメソッド
 
 <div align="right">
-  <a href="../README.md#section3">READMEに戻る</a>
+  <a href="../README.md#section3">◀️READMEに戻る</a>
 </div>
