@@ -14,19 +14,11 @@ for i in t:
     r.append(i)
 print(r)   # [1, 2, 3, 4, 5]
 
-# ② リスト内包表記で同じ処理（コピー）
-r = [i for i in t]
-print(r)   # [1, 2, 3, 4, 5]
-
 # ③ 偶数だけを抽出（for + if）
 r = []
 for i in t:
     if i % 2 == 0:
         r.append(i)
-print(r)   # [2, 4]
-
-# ④ リスト内包表記で偶数抽出
-r = [i for i in t if i % 2 == 0]
 print(r)   # [2, 4]
 
 # ⑤ 二重ループで積を計算（全組み合わせ）
@@ -35,8 +27,18 @@ for i in t:
     for j in t2:
         r.append(i * j)
 print(r)   # [5,6,7,8,9,10,...,45]
-
-# ⑥ リスト内包表記で二重ループの積
+```
+**② リスト内包表記**
+```python
+r = [i for i in t]
+print(r)   # [1, 2, 3, 4, 5]
+```
+```python
+r = [i for i in t if i % 2 == 0]
+print(r)   # [2, 4]
+```
+```python
+ト内包表記で二重ループの積
 r = [i * j for i in t for j in t2]
 print(r)   # [5,6,7,8,9,10,...,45]
 ```
