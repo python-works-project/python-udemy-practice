@@ -14,19 +14,20 @@ for i in t:
     r.append(i)
 print(r)   # [1, 2, 3, 4, 5]
 ```
-**リスト内包表記**
 ```python
+# リスト内包表記
 r = [i for i in t]
 print(r)   # [1, 2, 3, 4, 5]
-``````python
+```
+```python
 r = []
 for i in t:
     if i % 2 == 0:
         r.append(i)
 print(r)   # [2, 4]
 ```
-**リスト内包表記**
 ```python
+# リスト内包表記
 r = [i for i in t if i % 2 == 0]
 print(r)   # [2, 4]
 ``````python
@@ -36,9 +37,8 @@ for i in t:
         r.append(i * j)
 print(r)   # [5,6,7,8,9,10,...,45]
 ```
-**リスト内包表記**
-
 ```python
+# リスト内包表記
 r = [i * j for i in t for j in t2]
 print(r)   # [5,6,7,8,9,10,...,45]
 ```
