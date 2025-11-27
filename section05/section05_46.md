@@ -14,9 +14,25 @@ drinks = ['coffee', 'tea', 'bear']
 for i in range(len(days)):
     print(days[i], fruits[i], drinks[i])
 
+# 出力結果
+# Mon apple coffee
+# Tue banana tea
+# Wed orange bear
+# Mon apple coffee
+# Tue banana tea
+# Wed orange bear
+
 # zipを使って3つのリストを同時にループし、対応する要素を取り出して表示
 for day, fruit, drink in zip(days, fruits, drinks):
     print(day, fruit, drink)
+
+# 出力結果
+# Mon apple coffee
+# Tue banana tea
+# Wed orange bear
+# Mon apple coffee
+# Tue banana tea
+# Wed orange bear
 ```
 
 <div align="right">
