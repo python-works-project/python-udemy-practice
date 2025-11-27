@@ -186,5 +186,5 @@
 - [Pythonにおける (), [], {} の使い分け](docs/python_brackets_usage.md) 
 - [MarkDownファイルチートシート](docs/markdown_cheatsheet.md)
 
-<div align="right"><a href="#🐍-python-学習ログ">🔼 TOPに戻る</a></div>
+<div align="right"><a href="#python-学習ログ">🔼 TOPに戻る</a></div>
 
