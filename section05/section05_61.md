@@ -22,7 +22,7 @@ print(d)                          # {'Mon': 'coffee', 'Tue': 'Milk', 'Wen': 'Wat
 - 基本構文 :`{key: value for key, value in iterable}`
 - iterable から要素を取り出し、キーと値を対応付けて辞書を生成する。
 
-**例1: 2つのリストを対応付け**
+**2つのリストを対応付け**
 ```python
 w = ['Mon', 'Tue', 'Wed']
 f = ['coffee', 'Milk', 'Water']
@@ -30,13 +30,13 @@ f = ['coffee', 'Milk', 'Water']
 d = {x: y for x, y in zip(w, f)}
 print(d)  # {'Mon': 'coffee', 'Tue': 'Milk', 'Wed': 'Water'}
 ```
-**例2: 値を加工して登録**
+**値を加工して登録**
 ```python
 nums = [1, 2, 3]
 d = {n: n**2 for n in nums}
 print(d)  # {1: 1, 2: 4, 3: 9}
 ```
-**例3: 条件付きで登録**
+**条件付きで登録**
 ```python
 nums = range(6)
 d = {n: n*10 for n in nums if n % 2 == 0}
