@@ -75,3 +75,8 @@ PS C:\Users\XXXX\Desktop\Python\Udemy> python section06.py option1 option2
 - OSのシェルがそのまま Python に引数を渡し、`sys.argv` に格納される
 - launch.json の設定は無視される
 - デバッグ機能は使えない
+
+<div align="right">
+  <a href="../README.md#section5">◀️READMEに戻る</a>
+</div>
+  
