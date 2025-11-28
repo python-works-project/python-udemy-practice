@@ -4,7 +4,7 @@
   <a href="../README.md#section5">◀️READMEに戻る</a>
 </div>
 
-**パッケージ準備**
+**パッケージフォルダ準備**
 ```
 lesson_pakkege/         # パッケージフォルダ
   ├── init.py           # パッケージ初期化ファイル
