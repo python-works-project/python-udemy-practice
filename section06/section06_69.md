@@ -9,10 +9,10 @@
 ```python
 lesson_pakkege/             # パッケージフォルダ
     ├── talk/               # サブパッケージ
-    │    ├── init.py
+    │    ├── __init__.py
     │    └── human.py
     └── tools/              # サブパッケージ
-        ├── init.py
+        ├── __init__.py
         └── utils.py
 section06.py                # メインの実行ファイル
 ```
