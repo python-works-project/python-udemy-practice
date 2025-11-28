@@ -26,6 +26,7 @@
 - 順序あり / 重複可 / 変更可能 (mutable)
 - 例: lst = [1, 2, 3]
 - ポイント: 要素の追加・削除・並べ替えが柔軟
+- 主なメソッド: append, extend, insert, remove, pop, sort, reverse
 ```
 
 **タプル (tuple)：`()`**
@@ -33,6 +34,7 @@
 - 順序あり / 重複可 / 変更不可 (immutable)
 - 例: tpl = (1, 2, 3)
 - ポイント: 不変なので「固定データ」や「辞書のキー」に適する
+- 主なメソッド: count, index
 ```
 
 **辞書 (dict)： `{キー: 値}`**
@@ -40,6 +42,7 @@
 - キーと値のペアを保持 / キーは重複不可
 - 例: d = {'a': 1, 'b': 2}
 - ポイント: キーで高速アクセス、構造化データに便利
+- 主なメソッド: keys, values, items, get, update, pop, clear
 ```
 
 **集合 (set)：` {} または set()`**
@@ -47,6 +50,7 @@
 - 順序なし / 重複不可
 - 例: s = {1, 2, 3}
 - ポイント: 重複排除・和差積など集合演算に強い
+- 主なメソッド: add, remove, discard, pop, union, intersection, difference, clear
 ```
 
 ### type() と help() の使い分け
