@@ -4,13 +4,13 @@
   <a href="../README.md#section5">◀️READMEに戻る</a>
 </div>
 
-```bash
 ```python
+try:
+    from lesson_pakkege import utils
+except ImportError: 
+    from lesson_pakkege.tools import utils
 
+utils.say_twaice('word')
 ```
 ## ✨ 学習のまとめ
-- 
-
-<div align="right">
-  <a href="../README.md#section5">◀️READMEに戻る<a>
-</div>
+- パッケージのバージョンの切り分けをする際に使用する 
