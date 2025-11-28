@@ -9,6 +9,7 @@
 
 ## 目次
 
+- [基本構文](#基本構文)
 - [リスト/タプル/辞書/集合](#リストタプル辞書集合)
 - [type() と help() の使い分け](#type-と-help-の使い分け)
 - [is not と != の使い分け](#is-not-と--の使い分け)
@@ -19,6 +20,75 @@
 
 
 ---
+### 基本構文
+**関数定義**
+```pyton
+def func(x, y):
+    return x + y
+```
+**ジェネレーター**
+```python
+def g():
+    for i in range(10):
+        yield i
+```
+**クラス定義**
+```python
+class MyClass:
+    def __init__(self, name):
+        self.name = name
+    def hello(self):
+        print("Hello", self.name)
+```
+**リスト内包表記**
+```python
+squares = [x**2 for x in range(5)]
+```
+
+**辞書内包表記**
+```python
+d = {x: x**2 for x in range(5)}
+```
+
+**lambda 式**
+```python
+f = lambda x: x * 2
+print(f(5))
+```
+**デコレーター**
+```python
+def deco(func):
+    def wrapper():
+        print("before")
+        func()
+        print("after")
+    return wrapper
+
+@deco
+def hello():
+    print("hello")
+
+hello()
+```
+**try / except / finally**
+```python
+try:
+    n = int("abc")
+except ValueError:
+    print("エラー")
+finally:
+    print("終了")
+```
+***with (コンテキストマネージャ)***
+```python
+with open("file.txt", "r") as f:
+    data = f.read()
+```
+**import**
+```python
+import math
+print(math.sqrt(16))
+```
 
 ### リスト/タプル/辞書/集合
 **リスト (list)：`[]`**
