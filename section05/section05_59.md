@@ -5,13 +5,15 @@
 </div>
 
 ```python
-# リストの要素を順に出力
 l = ['Good morning', 'Good afternoon', 'Good night']
-
+```
+**通常のループ**
+```python
 for i in l:
     print(i)
 # この場合は一気に最後まで処理
 ```
+**ジェネレータ**
 ```python
 # ジェネレータ関数の定義
 def greeting():
