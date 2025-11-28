@@ -4,7 +4,7 @@
   <a href="../README.md#section5">◀️READMEに戻る</a>
 </div>
 
-**` launch.json ` に ` args ` を追加してデバッグ実行
+**` launch.json ` に ` args ` を追加してデバッグ実行**
 ```python
 {
     "version": "0.2.0",
