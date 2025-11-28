@@ -7,7 +7,7 @@
 **パッケージフォルダ準備**
 ```
 lesson_pakkege/         # パッケージフォルダ
-  ├── init.py           # パッケージ初期化ファイル
+  ├── __init__.py       # パッケージ初期化ファイル
   └── utils.py          # ユーティリティ関数を定義するモジュール
 section06.py            # メインの実行ファイル
 ```
@@ -39,6 +39,8 @@ r = say_twaice('Goodbay')
 from lesson_pakkege import utils as u
 r = u.say_twaice('Good morning')
 ```
+## ✨ 学習のまとめ
+- `__init__.py` があることで Python に「ここはパッケージだ」と認識させる
 
 <div align="right">
   <a href="../README.md#section5">◀️READMEに戻る<a>
