@@ -3,10 +3,7 @@
 このページでは、Python学習の中で出てきた補足事項やVSCodeの操作方法など、<br>
 理解を深めるためのポイントを簡潔にまとめています。
 
-
-<div align="right">
-  <a href="../README.md#４-その他">◀️READMEに戻る</a>
-</div>
+<div align="right"><a href="../README.md#４-その他">◀️READMEに戻る</a></div>
 
 ---
 
