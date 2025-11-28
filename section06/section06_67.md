@@ -57,6 +57,7 @@ PS C:\Users\XXXX\Desktop\Python\Udemy> python section06.py option1 option2
 - ` option1 ` と ` option2 ` がコマンドライン引数として渡される
 - ` sys.argv ` の中身は` ["section06.py", "option1", "option2"] `
 
+
 ## ✨ 学習のまとめ
 **コマンドライン引数とは**
 - プログラムを実行するときに、コマンドライン（ターミナルやコマンドプロンプト）から渡す追加の情報のこと
