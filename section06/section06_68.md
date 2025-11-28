@@ -11,7 +11,11 @@ lesson_pakkege/         # パッケージフォルダ
   └── utils.py          # ユーティリティ関数を定義するモジュール
 section06.py            # メインの実行ファイル
 ```
-
+**utils.py の中身**
+```python
+def say_twaice(word):
+    return (word + '!') * 2
+```
 **パッケージ全体をインポート**
 ```python
 import lesson_pakkege.utils
