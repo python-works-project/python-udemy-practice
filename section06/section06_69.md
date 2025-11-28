@@ -21,7 +21,7 @@ section06.py                # メインの実行ファイル
 def say_twaice(word):
     return (word + '!') * 2
 ```
-**himan.py の中身**
+**human.py の中身**
 ```python
 # 絶対パスの場合
 from lesson_pakkege.tools import utils
