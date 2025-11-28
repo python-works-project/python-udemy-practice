@@ -13,7 +13,7 @@ lesson_pakkege/             # パッケージフォルダ
          └── human.py
 section06.py                # メインの実行ファイル
 ```
-**'__init__.py'の中身**
+**__init__.pyの中身**
 ```python
 __all__ = ['animal']
 ```
