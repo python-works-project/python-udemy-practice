@@ -76,14 +76,14 @@ pip install -e .
 >>> lesson_package.__doc__
 ```
 
-## 7. importテストで動作確認
-## 8. Gitで管理開始 (git init)
-## 9. コミット (git add . → git commit)
-## 10. GitHubに新しいリポジトリを作成
-## 11. リモートを追加 (git remote add origin ...)
-## 12. push (git push -u origin main)
-## 13. GitHub上でREADMEとLICENSEを確認
-## 14. （任意）python -m build で配布物を生成
-## 15. （任意）PyPIにアップロード (twine upload dist/*)
+### 3. パッケージの機能を試す
+- REPLで実際に関数を呼び出す
+```bash
+>>> from lesson_package.talk import animal, human
+>>> animal.sing()
+'ldkjlakngb;adsf.,mel'
+>>> human.sing()
+'sing'
+```
 
 <div align="right"><a href="../README.md#section5">◀️READMEに戻る</a></div>
