@@ -42,7 +42,37 @@ lesson_package_project/        ← プロジェクト全体のルートフォル
 ├── README.md                  ← 説明文（GitHubやPyPIに表示される）
 ├── LICENSE                    ← ライセンス（MITなど）
 ```
-## 2. LICENSE を追加（MIT推奨、今回はGitHubで生成）
+## 2. Githubにパッケージ用のリポジトリを用意し、ローカルのパッケージをpush
+- このフォルダを Git管理対象にする（初期化）
+- これにより` .git ` という隠しフォルダが作られ、履歴管理が始まる
+```bash
+git init
+```
+- このフォルダ内のすべてのファイルをステージング
+```bash
+git add .
+```
+
+- ステージングされたファイルを 履歴として保存（＝「最初のスナップショット」）
+- "initial commit" は履歴のメモ
+```bash
+git commit -m "initial commit"
+```
+
+# 現在のブランチ名を` main `に変更（GitHubの標準に合わせる）
+# ` -M ` は「強制的に変更する」という意味
+git branch -M main
+
+# GitHubのリポジトリと紐付ける
+# ' origin 'はリモートの名前。通常はこれでOK
+git remote add origin https://github.com/chie-works/lesson_package.git
+
+# ローカルの履歴を GitHubに送る（push）
+# '-u 'は「今後もこのリモートとブランチを使う」という設定
+git push -u origin main
+```
+
+## 3. LICENSE を追加（MIT推奨、今回はGitHubで生成）
 ## 6. 開発モードでインストール (pip install -e .)
 ## 7. importテストで動作確認
 ## 8. Gitで管理開始 (git init)
