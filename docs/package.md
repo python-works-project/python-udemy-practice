@@ -10,9 +10,7 @@
 - 不要になったビルド成果物やインストール済みパッケージの削除
 
 ---
-<div align="right">
-  <a href="../README.md#section5">◀️READMEに戻る</a>
-</div>
+<div align="right"><a href="../README.md#４-その他">◀️READMEに戻る</a></div>
 
 ### 1. プロジェクトフォルダの作成
 ```bash
@@ -116,7 +114,4 @@ Remove-Item build, dist, *.egg-info -Recurse -Force
 pip uninstall mypackage -y
 ```
 
-<div align="right">
-  <a href="../README.md#その他">◀️READMEに戻る</a>
-</div>
-
+<div align="right"><a href="../README.md#４-その他">◀️READMEに戻る</a></div>
