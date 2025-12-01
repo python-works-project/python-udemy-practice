@@ -202,7 +202,6 @@
 
 ## 5. その他
 - [Tips](docs/tips.md) 
-- [Pythonパッケージ作成と動作確認手順](docs/package.md) 
 - [Pythonにおける (), [], {} の使い分け](docs/python_brackets_usage.md) 
 - [MarkDownファイルチートシート](docs/markdown_cheatsheet.md)
 
