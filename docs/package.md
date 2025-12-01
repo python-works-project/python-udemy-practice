@@ -3,7 +3,7 @@
 
 ### 1. VSCodeでパッケージ作成
 - 各フォルダに ` __init__.py ` の用意
-- setup.py を作成
+- ` setup.py ` を作成
 ```python
 from setuptools import setup, find_packages
 
@@ -45,12 +45,12 @@ git init
 git add .
 ```
 - ステージングされたファイルを 履歴として保存（＝「最初のスナップショット」）
-- "initial commit" は履歴のメモ
+- ` initial commit ` は履歴のメモ
 ```bash
 git commit -m "initial commit"
 ```
 
-- 現在のブランチ名を main に変更（GitHubの標準に合わせる）
+- 現在のブランチ名を ` main ` に変更（GitHubの標準に合わせる）
 ```bash
 git branch -M main
 ```
