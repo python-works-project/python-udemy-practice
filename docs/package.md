@@ -25,7 +25,7 @@ def hello(name="World"):
 ### 3. setup.py の作成
 - ` setuptools `：Pythonの標準的なパッケージ配布ツール
   パッケージをビルドしたり、インストール可能な形式（wheelやtar.gz）に変換するために使う
-- ` setup`：パッケージのメタ情報を定義する関数
+- ` setup `：パッケージのメタ情報を定義する関数
   この情報が pip install や PyPI公開 の際に利用される
 - ` find_packages `：パッケージフォルダを自動検出する関数
   プロジェクトフォルダ内の` __init__.py `を含むディレクトリを探して、パッケージとして登録
