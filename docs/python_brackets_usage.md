@@ -1,9 +1,7 @@
 ## Pythonにおける (), [], {} の使い分け
-<div align="right">
-  <a href="../README.md#４-その他">READMEに戻る</a>
-</div>
-
 ---
+<div align="right"><a href="../README.md#４-その他">READMEに戻る</a></div>
+
 ### () の使い所
 - タプルの定義 : `(1, 2, 3)`
 - 1要素タプルはカンマ必須 : `(1,)`
