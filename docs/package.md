@@ -45,7 +45,7 @@ setup(
 
 ### 4. README.md と LICENSE の作成
 - README.md
-``python
+```python
 # mypackage
 A simple demo package that provides `hello(name)`.
 
