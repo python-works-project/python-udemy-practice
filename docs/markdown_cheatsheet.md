@@ -1,9 +1,7 @@
 # Markdown チートシート
-<div align="right">
-  <a href="../README.md#４-その他">READMEに戻る</a>
-</div>
 
 ---
+<div align="right"><a href="../README.md#４-その他">◀️READMEに戻る</a></div>
 
 ## 見出し
 - 記法: `# 見出し1` / `## 見出し2` / `### 見出し3`
@@ -52,6 +50,4 @@
 
 ---
 
-<div align="right">
-  <a href="../README.md#４-その他">READMEに戻る</a>
-</div>
+<div align="right"><a href="../README.md#４-その他">◀️READMEに戻る</a></div>
