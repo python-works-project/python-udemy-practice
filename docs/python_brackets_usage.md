@@ -1,6 +1,6 @@
 ## Pythonにおける (), [], {} の使い分け
 ---
-<div align="right"><a href="../README.md#４-その他">READMEに戻る</a></div>
+<div align="right"><a href="../README.md#４-その他">◀️READMEに戻る</a></div>
 
 ### () の使い所
 - タプルの定義 : `(1, 2, 3)`
@@ -37,6 +37,4 @@
 - `()` → タプル、関数呼び出し、演算グルーピング
 - `{}` → 辞書、集合、内包表記
 
-<div align="right">
-  <a href="../README.md#４-その他">READMEに戻る</a>
-</div>
+<div align="right"><a href="../README.md#４-その他">◀️READMEに戻る</a></div>
