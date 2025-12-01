@@ -6,19 +6,19 @@
 
 ---
 
-## １. 目的
+## 1. 目的
 - 学習の進捗管理  
 - ポートフォリオとして活用  
 ---
 
-## ２. 環境
+## 2. 環境
 -  Python 3.13.5 (Anaconda)  
 -  Visual Studio Code  
 -  Windows 11 (64bit)
 ---
 <div align="right"><a href="#top">🔼 TOPに戻る</a></div>
 
-## ３. 学習内容
+## 3. 学習内容
 <small>
  🔽をクリックするとリンク一覧が展開され、そこから学習したコードにアクセスできます。<br>
  各ページには [READMEへ戻る] のリンクを設けており、再びこの一覧に戻ることが可能です。<br>
@@ -195,7 +195,12 @@
 ---
 <div align="right"><a href="#top">🔼 TOPに戻る</a></div>
 
-## ４. その他
+## 4. 手順
+- [Pythonパッケージ作成と動作確認手順](operation_guide/python_packageworkflow.md) 
+- [GitHubリポジトリからファイル削除](operation_guide/repository_file_delete.md) 
+- [GitHubリポジトリのクローンとフォルダ構成整理](operation_guide/repository_restructure.md) 
+
+## 5. その他
 - [Tips](docs/tips.md) 
 - [Pythonパッケージ作成と動作確認手順](docs/package.md) 
 - [Pythonにおける (), [], {} の使い分け](docs/python_brackets_usage.md) 
