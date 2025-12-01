@@ -26,7 +26,3 @@ print(sorted(ranking, key=ranking.get))
 print(sorted(ranking, key=ranking.get, reverse=True))  
 # → ['A', 'C', 'B'] （100,95,85 の順）
 ```
-
-<div align="right">
-  <a href="../README.md#section5">◀️READMEに戻る<a>
-</div>
