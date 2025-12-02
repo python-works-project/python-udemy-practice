@@ -33,3 +33,21 @@ person.say_something()
 # I am Mike. hello
 # runrunrun
 ```
+## ✨ 学習のまとめ
+- コンストラクタ：クラスからインスタンスを生成するときに自動的に呼ばれる特別なメソッド
+  Python では` __init__ `がコンストラクタにあたる
+- コンストラクタの役割
+  - 初期化処理を行う → インスタンス変数に値をセットしたり、準備が必要な処理をまとめる
+  - インスタンス生成時に必ず呼ばれる →` obj = ClassName(...) `とした瞬間に` __init__ `が実行される
+
+
+
+
+
+
+
+
+<div align="right">
+  <a href="../README.md#section7">◀️READMEに戻る<a>
+</div>
+
