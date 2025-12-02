@@ -42,33 +42,33 @@ r = u.say_twaice('Good morning')
 ## ✨ 学習のまとめ
 - `__init__.py` があることで Python に「ここはパッケージだ」と認識させる
 ### importの基本形
-1. モジュール全体をインポート
+**モジュール全体をインポート**
   - モジュール全体を読み込む
   - 呼び出すときは モジュール名.関数名
 ```python
 import math
 print(math.sqrt(16))   # → 4.0
 ```
-2. モジュールに別名をつける
+**モジュールに別名をつける**
   - 長い名前を短くできる
   - 慣習的に numpy → np, pandas → pd など
 ```python
 import numpy as np
 print(np.array([1, 2, 3]))
 ```
-3. 特定の関数やクラスだけをインポート
+**特定の関数やクラスだけをインポート**
   - 必要なものだけを直接使える
   - 呼び出しがシンプルになる
 ```python
 from math import sqrt
 print(sqrt(16))   # → 4.0
 ```
-4. 複数まとめてインポート（推奨されない？）
+**複数まとめてインポート（推奨されない？）**
 ```python
 from math import sqrt, pow
 print(sqrt(9), pow(2, 3))
 ```
-5. ワイルドカード（推奨されない）
+**ワイルドカード（推奨されない）**
   - 全部インポートするが、名前が衝突しやすく可読性が下がるため避ける
 ```python
 from math import *
