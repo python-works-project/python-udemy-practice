@@ -69,12 +69,12 @@ from math import sqrt, pow
 print(sqrt(9), pow(2, 3))
 ```
 5. ワイルドカード（推奨されない）
+  - 全部インポートするが、名前が衝突しやすく可読性が下がるため避ける
 ```python
 from math import *
 print(sqrt(16))
 ```
 
-- 全部インポートするが、名前が衝突しやすく可読性が下がるため避ける
 
 
 <div align="right">
