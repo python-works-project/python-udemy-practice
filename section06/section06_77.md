@@ -1,7 +1,7 @@
 ## 77. __nameと__main__
 #### 🖥 VSCodeで実行
 <div align="right">
-  <a href="../README.md#section5">◀️READMEに戻る</a>
+  <a href="../README.md#section6">◀️READMEに戻る</a>
 </div>
 
 **section06.py**
@@ -26,5 +26,5 @@ section06.py から import された場合は実行されない
 - メインプログラムでは「エントリーポイント」、呼び出されるプログラムでは「テスト用コード」に使う
 
 <div align="right">
-  <a href="../README.md#section5">◀️READMEに戻る<a>
+  <a href="../README.md#section6">◀️READMEに戻る<a>
 </div>
