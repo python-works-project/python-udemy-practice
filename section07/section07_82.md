@@ -37,27 +37,18 @@ tesla_Car.run()              # → "super fast" （オーバーライドされ�
 # 親クラス Car の定義
 class Car(object):
     def __init__(self, model=None):
-        self.model = model                      # インスタンス変数 model を初期化
+        self.model = model               # インスタンス変数 model を初期化
     def run(self):
-        print('run')                            # Car の基本動作
+        print('run')                     # Car の基本動作
 
 # Car を継承した TeslaCar クラス
 class TeslaCar(Car):
-    def __init__(self, model='Model S', enable_auto_run=False):
-        super().__init__(model)                 # 親クラスのコンストラクタを呼び出して model を初期化
-        self.enable_auto_run = enable_auto_run  # TeslaCar 独自のインスタンス変数を追加
-    def run(self):
-        print('super fast')                     # 親の run をオーバーライド
-    def auto_run(self):
-        print('auto run')                       # TeslaCar 独自のメソッド
+    def __init__(self, model='Model S'):
+        super().__init__(model)          # 親クラスのコンストラクタを呼び出して model を初期化
 
 # 動作確認
-car = Car()
-car.run()                                       # → "run"
 tesla_Car = TeslaCar('Model S')
-print(tesla_Car.model)                          # → "Model S" （super() で親の __init__ を呼び出した）
-tesla_Car.run()                                 # → "super fast" （オーバーライドされたメソッド）
-tesla_Car.auto_run()                            # → "auto run" （TeslaCar 独自のメソッド）
+print(tesla_Car.model)                   # → "Model S" （super() で親の __init__ を呼び出した）
 ```
 
 ## ✨ 学習のまとめ
