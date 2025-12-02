@@ -109,7 +109,7 @@
  - [74. 標準ライブラリ](section06/section06_74.md)  
  - [75. サードパーティのライブラリ](section06/section06_75.md)  
  - [76. Importする際の記述の仕方](section06/section06_76.md)  
- - [77. `__nameと__main__`](section06/section06_77.md)  
+ - [77. ` __name__ `と` __main__ `](section06/section06_77.md)  
 </details>
 
 <details>
