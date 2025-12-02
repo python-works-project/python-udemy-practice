@@ -16,12 +16,10 @@ class Person(object):
     def say_something(self):
         # インスタンス変数 self.name を使って文字列を出力
         print('I am {}. hello'.format(self.name))
-        # run メソッドを呼び出し、引数 3 を渡す
         self.run(3)
 
     # run メソッドの定義
     def run(self, num):
-        # 'run' を num 回繰り返して出力
         print('run' * num)
 
 # Person クラスからインスタンスを生成（name に 'Mike' を渡す）
@@ -34,16 +32,31 @@ person.say_something()
 # runrunrun
 ```
 ## ✨ 学習のまとめ
-- コンストラクタ：Python では` __init__ `がコンストラクタにあたる
+**コンストラクタ**：Python では` __init__ `がコンストラクタにあたる
 - コンストラクタは初期化処理を行う  
-  → インスタンス変数に値をセットしたり、準備が必要な処理をまとめる  
   →` obj = ClassName(...) `とした瞬間に` __init__ `が実行される
+  → 主な使い所は「インスタンス変数の初期化」「準備処理」  
+**インスタンスのメソッド**：クラスの中で` def `で定義され、第一引数に` self `を取る
+```python
+class Person:
+    def __init__(self, name):
+        self.name = name   # インスタンス変数
 
+    def say_hello(self):   # インスタンスメソッド
+        print(f"Hello, I am {self.name}.")
 
+# インスタンスを作成
+p1 = Person("Mike")
+p2 = Person("Nancy")
 
-
-
-
+# インスタンスごとにメソッドを呼び出す
+p1.say_hello()   # → Hello, I am Mike.
+p2.say_hello()   # → Hello, I am Nancy.
+```
+**インスタンス変数**：クラスから作られたインスタンス（オブジェクト）が個別に持つデータ
+- クラスの中で self.変数名 の形で定義される
+- インスタンスごとに値が保持される（同じクラスでも別々の値を持てる）
+- コンストラクタ __init__ の中でよく初期化される
 
 
 <div align="right">
