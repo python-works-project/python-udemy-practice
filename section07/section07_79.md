@@ -40,10 +40,10 @@ person.say_something()
 **インスタンスのメソッド**：クラスの中で` def `で定義され、第一引数に` self `を取る
 ```python
 class Person:
-    def __init__(self, name):
-        self.name = name   # インスタンス変数
+    def __init__(self, name):  # コンストラクタ
+        self.name = name       # インスタンス変数
 
-    def say_hello(self):   # インスタンスメソッド
+    def say_hello(self):       # インスタンスメソッド
         print(f"Hello, I am {self.name}.")
 
 # インスタンスを作成
