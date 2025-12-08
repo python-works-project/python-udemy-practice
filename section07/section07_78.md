@@ -50,3 +50,6 @@ class クラス名:
 ```
 クラス名.変数名
 ```
+<div align="right">
+  <a href="../README.md#section7">◀️READMEに戻る</a>
+</div>
