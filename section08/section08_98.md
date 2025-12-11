@@ -64,7 +64,7 @@ print(os.getcwd())                 # 現在の作業ディレクトリを表示
 ```
 ## ✨ 学習のまとめ
 1. 存在確認
-- ` os.path.exists(path)`： ファイル/ディレクトリが存在するか
+- ` os.path.exists(path) `： ファイル/ディレクトリが存在するか
 - ` os.path.isfile(path) `： ファイルかどうか
 - ` os.path.isdir(path) `： ディレクトリかどうか
 2. ファイル操作
@@ -73,17 +73,17 @@ print(os.getcwd())                 # 現在の作業ディレクトリを表示
 3. ディレクトリ操作
 - ` os.mkdir(path) `： 新規ディレクトリ作成
 - ` os.rmdir(path) `： 空ディレクトリ削除
-- ` os.listdir(path)`： ディレクトリ内の一覧取得
+- ` os.listdir(path) `： ディレクトリ内の一覧取得
 4. ファイル作成・削除
-- ` pathlib.Path(path).touch()`： 空ファイル作成（存在すれば更新日時変更）
-- ` os.remove(path)`： ファイル削除
+- ` pathlib.Path(path).touch() `： 空ファイル作成（存在すれば更新日時変更）
+- ` os.remove(path) `： ファイル削除
 5. ネストしたディレクトリ
-- ` os.mkdir('test_dir/test_dir2')`： 階層的に作成（親が存在している必要あり）
+- ` os.mkdir('test_dir/test_dir2') `： 階層的に作成（親が存在している必要あり）
 6. ファイルコピー
-- ` shutil.copy(src, dst)`： ファイルをコピー
-- ` glob.glob(pattern)`： パターンに一致するファイル一覧取得（例: *.txt）
+- ` shutil.copy(src, dst) `： ファイルをコピー
+- ` glob.glob(pattern) `： パターンに一致するファイル一覧取得（例: *.txt）
 7. ディレクトリごと削除
-- ` shutil.rmtree(path)`： ディレクトリ以下を再帰的に削除（中身ごと削除）
+- ` shutil.rmtree(path) `： ディレクトリ以下を再帰的に削除（中身ごと削除）
 8. カレントディレクトリ
 - ` os.getcwd() `： 現在の作業ディレクトリを取得
 
