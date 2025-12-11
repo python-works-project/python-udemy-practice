@@ -3,43 +3,43 @@
 <div align="right"><a href="../README.md#5-その他">◀️READMEに戻る</a></div>
 
 
-` where `
+` where `：
 **検索したいコマンドを指定する**
 
-` cls `
+` cls `：
 **表示をクリアする**
 
-` dir `
+` dir `：
 **ファイルやディレクトリの情報を表示する**
 
-` cd `
+` cd `：
 **ディレクトリ間の移動**
 
-` md `
+` md `：
 **ディレクトリを作成**
 
-` type `
+` type `：
 **テキストファイルの内容を表示**
 
-` move `
+` move `：
 **ディレクトリを移動**
 
-` xcopy /e /c /h `
+` xcopy /e /c /h `：
 **ディレクトリをコピー**
 
-` rd `
+` rd `：
 **ディレクトリを削除**
 
-` move `
+` move `：
 **ファイルを移動**
 
-` copy `
+` copy `：
 **ファイルをコピー**
 
-` del `
+` del `：
 **ファイルを削除**
 
-` dir `
+` dir `：
 **現在のディレクトリの場所を確認する**
 
 <div align="right"><a href="../README.md#5-その他">◀️READMEに戻る</a></div>
