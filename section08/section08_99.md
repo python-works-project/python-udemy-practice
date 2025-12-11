@@ -22,7 +22,7 @@ with tarfile.open('test.tar.gz', 'r:gz') as tr:
 
 ## ✨ 学習のまとめ
 
-**` tarfile.open(mode) ``**
+**` tarfile.open(mode) `**
 - ` w:gz ` ： gzip圧縮で書き込み
 - ` r:gz ` ： gzip圧縮を読み込み
 
