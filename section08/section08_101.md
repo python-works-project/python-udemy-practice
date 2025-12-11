@@ -29,14 +29,15 @@ with tempfile.NamedTemporaryFile(delete=False) as t:
     # delete=False にしているので、with を抜けてもファイルは残る
 ```
 
-**一時ディレクトリ**
+**一時ディレクトリ（TemporaryDirectory）**
 ```python
-# TemporaryDirectory
 with tempfile.TemporaryDirectory() as td:
     print(td)  # 一時ディレクトリのパスを表示
     # with を抜けるとディレクトリは自動的に削除される
+```
 
-# 一時ディレクトリ（mkdtemp）
+**一時ディレクトリ（mkdtemp）**
+```python
 temp_dir = tempfile.mkdtemp()
 print(temp_dir)
 # mkdtemp は一時ディレクトリを作成してパスを返すが、自動削除はされない
