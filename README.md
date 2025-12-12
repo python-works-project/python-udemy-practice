@@ -235,7 +235,6 @@
 - [Windowsコマンド](docs/windows_cmd.md)
 - [イテラブルとイテレータ](docs/iterable_iterator.md)
 
-)
 
 <div align="right"><a href="#top">🔼 TOPに戻る</a></div>
 
