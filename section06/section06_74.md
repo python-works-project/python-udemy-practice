@@ -45,6 +45,27 @@ print(d)  # defaultdict(<class 'int'>, {'a': 3, 'b': 2, 'c': 5, 'd': 2, 'e': 1})
 ```python
 print(d['b'])  # → 2
 ```
+
+## ✨ 学習のまとめ
+**` setdefault `**
+- 対象: 通常の辞書` （dict）`に使うメソッド
+- 役割: 指定したキーが存在しなければ「デフォルト値」を代入し、その値を返す
+```python
+d = {}
+d.setdefault("x", 0)   # キー "x" がなければ 0 を代入
+d["x"] += 1
+print(d)  # → {'x': 1}
+```
+
+**` defaultdict `**
+- 対象:` collections `モジュールが提供する「辞書の派生クラス」
+- 役割: 存在しないキーにアクセスしたとき、自動で「デフォルト値」を生成して登録する
+```python
+from collections import defaultdict
+
+d = defaultdict(int)   # 未登録キーは自動で int() → 0 に初期化
+d["x"] += 1
+print(d)  # → {'x': 1}
 ```
 
 <div align="right">
