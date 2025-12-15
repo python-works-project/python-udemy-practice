@@ -9,6 +9,7 @@
 s = "aaabbcccccdde"
 ```
 **方法1: if文で初期化してカウント**
+```python
 d = {}
 for c in s:
     if c not in d:      # 初めて出てきた文字ならキーを作って0で初期化
