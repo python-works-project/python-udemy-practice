@@ -74,3 +74,6 @@ with open(csv_name, 'w', newline='') as f:
 
 print(colored(msg3.format(user_name), color))
 ```
+<div align="right">
+  <a href="../README.md#section8">◀️READMEに戻る</a>
+</div>
