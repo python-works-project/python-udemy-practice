@@ -3,7 +3,7 @@
 ### 構成
 ```
 roboter/
-├── [controller/](roboter_/_main.py)      ← 会話の流れを制御（司令塔）
+├── [controller/](roboter___main.py)      ← 会話の流れを制御（司令塔）
 │   └── conversation.py
 ├── models/          ← データ処理（CSV・ロボットの動作）
 │   ├── ranking.py
