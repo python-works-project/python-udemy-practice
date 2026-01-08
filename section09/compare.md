@@ -1,9 +1,65 @@
-| 自分で作成したコード | 生成したコード |
-|----------------------|----------------|
-| 
-```python
-## 自分で作成したコード
-import csv
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>コード比較（左右に並べて表示）</title>
+  <style>
+    body {
+      font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 0;
+      padding: 16px;
+      box-sizing: border-box;
+      background-color: #f5f5f5;
+    }
+    .container {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .column {
+      flex: 1;
+      min-width: 0;
+      background: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 12px;
+      box-sizing: border-box;
+    }
+    .column h2 {
+      margin-top: 0;
+      font-size: 16px;
+      margin-bottom: 8px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 4px;
+    }
+    pre {
+      margin: 0;
+      overflow: auto;
+      background-color: #272822;
+      color: #f8f8f2;
+      padding: 10px;
+      border-radius: 4px;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    code {
+      font-family: Consolas, "Courier New", monospace;
+      white-space: pre;
+    }
+    /* 必要ならスマホ用に縦並びにする */
+    @media (max-width: 800px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- 左カラム：自分で作成したコード -->
+    <div class="column">
+      <h2>自分で作成したコード</h2>
+      <pre><code>import csv
 import os
 from termcolor import colored
 
@@ -70,12 +126,13 @@ with open(csv_name, 'w', newline='') as f:
     writer.writeheader()
     writer.writerows(rows)
 
-print(colored(msg3.format(user_name), color))
-```
- | 
-```python
-## プロンプトをもとに生成したコード
-import csv
+print(colored(msg3.format(user_name), color))</code></pre>
+    </div>
+
+    <!-- 右カラム：生成したコード -->
+    <div class="column">
+      <h2>プロンプトをもとに生成したコード</h2>
+      <pre><code>import csv
 import os
 from termcolor import colored
 
@@ -141,7 +198,8 @@ def main():
     print(colored("ありがとうございました。良い一日を！", "green"))
 
 if __name__ == "__main__":
-```
- |
-
-
+    main()</code></pre>
+    </div>
+  </div>
+</body>
+</html>
