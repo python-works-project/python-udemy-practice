@@ -3,19 +3,19 @@
 ### 構成
 
 roboter/
-├── controller/      ← 会話の流れを制御（司令塔）
-│   └── [conversation.py](#roboter--controller--conversationpy)
-├── models/          ← データ処理（CSV・ロボットの動作）
-│   ├── [ranking.py](#roboter--models--rankingpy)
-│   └── [robot.py](#roboter--models--robotpy)
-├── templates/       ← メッセージテンプレート
-│   ├── [hello.txt](#roboter--templates--hellotxt)
-│   ├── [greeting.txt](#roboter--templates--greetingtxt)
-│   ├── [which_restaurant.txt](#roboter--templates--which_restauranttxt)
-│   └── [good_by.txt](#roboter--templates--good_bytxt)
-├── views/           ← 画面表示（テンプレート読み込み）
-│   └── [console.py](#roboter--views--consolepy)
-└── [main.py](#roboter--mainpy)          ← アプリの入口
+├── controller/      ← 会話の流れを制御（司令塔）  
+│   └── [conversation.py](#roboter--controller--conversationpy)  
+├── models/          ← データ処理（CSV・ロボットの動作）  
+│   ├── [ranking.py](#roboter--models--rankingpy)  
+│   └── [robot.py](#roboter--models--robotpy)  
+├── templates/       ← メッセージテンプレート  
+│   ├── [hello.txt](#roboter--templates--hellotxt)  
+│   ├── [greeting.txt](#roboter--templates--greetingtxt)  
+│   ├── [which_restaurant.txt](#roboter--templates--which_restauranttxt)  
+│   └── [good_by.txt](#roboter--templates--good_bytxt)  
+├── views/           ← 画面表示（テンプレート読み込み）  
+│   └── [console.py](#roboter--views--consolepy)  
+└── [main.py](#roboter--mainpy)          ← アプリの入口  
 
 roboter/  
 ├── controller/      ← 会話の流れを制御（司令塔）  
