@@ -7,7 +7,7 @@ roboter/
 │   └── [conversation.py](#roboter--controller--conversationpy)  
 ├── models/          ← データ処理（CSV・ロボットの動作）  
 │   ├── [ranking.py](#models--models--rankingpy)  
-│   └── robot.py  
+│   ├── [ranking.py](#models--models--robotpy)  
 ├── templates/       ← メッセージテンプレート  
 │   ├── hello.txt  
 │   ├── greeting.txt  
