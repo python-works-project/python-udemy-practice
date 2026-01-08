@@ -1,7 +1,9 @@
 <div style="display: flex; gap: 16px;">
 
-  <div style="flex: 1;">
+  <!-- 左側 -->
+  <div style="flex: 1; min-width: 0;">
     <pre><code class="language-python">
+
 import csv
 import os
 from termcolor import colored
@@ -70,11 +72,14 @@ with open(csv_name, 'w', newline='') as f:
     writer.writerows(rows)
 
 print(colored(msg3.format(user_name), color))
+
     </code></pre>
   </div>
 
-  <div style="flex: 1;">
+  <!-- 右側 -->
+  <div style="flex: 1; min-width: 0;">
     <pre><code class="language-python">
+
 import csv
 import os
 from termcolor import colored
@@ -143,7 +148,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-</div>
     </code></pre>
   </div>
 
