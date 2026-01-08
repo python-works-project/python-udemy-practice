@@ -2,7 +2,7 @@
 
 ### 構成
 
-roboter/
+roboter/  
 ├── controller/      ← 会話の流れを制御（司令塔）  
 │   └── [conversation.py](#roboter--controller--conversationpy)  
 ├── models/          ← データ処理（CSV・ロボットの動作）  
@@ -33,7 +33,7 @@ roboter/
 └── main.py          ← アプリの入口  
 
 ### 処理の流れ
-#### roboter /' main.py '
+#### roboter /` main.py `
 ```python
 import roboter.controller.conversation
 roboter.controller.conversation.talk_about_restaurant()
