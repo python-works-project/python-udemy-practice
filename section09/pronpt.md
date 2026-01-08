@@ -47,7 +47,8 @@ Python で ROBOKO というプログラムを作りたいです。
 以上を満たす Python コードを作成してください。
 ```
 
-# Python コード（上記のプロンプトをもとにCopilotが作成したコード）
+# Python コード
+上記のプロンプトをもとにCopilotが作成したコード
 ```python
 import csv
 import os
