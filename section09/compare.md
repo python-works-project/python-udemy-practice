@@ -1,9 +1,5 @@
-<div style="display: flex; gap: 16px;">
-
-  <!-- 左側 -->
-  <div style="flex: 1; min-width: 0;">
-    <pre><code class="language-python">
-
+## 自分で作成したコード
+```python
 import csv
 import os
 from termcolor import colored
@@ -72,14 +68,9 @@ with open(csv_name, 'w', newline='') as f:
     writer.writerows(rows)
 
 print(colored(msg3.format(user_name), color))
-
-    </code></pre>
-  </div>
-
-  <!-- 右側 -->
-  <div style="flex: 1; min-width: 0;">
-    <pre><code class="language-python">
-
+```
+## プロンプトをもとに生成したコード
+```python
 import csv
 import os
 from termcolor import colored
@@ -145,10 +136,5 @@ def main():
     # --- 6. 終了メッセージ ---
     print(colored("ありがとうございました。良い一日を！", "green"))
 
-
 if __name__ == "__main__":
-    main()
-    </code></pre>
-  </div>
-
-</div>
+```
