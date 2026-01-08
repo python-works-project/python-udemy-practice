@@ -19,7 +19,7 @@ roboter/
 ```
 
 ### 処理の流れ
-#### roboter/  main.py
+#### roboter / main.py
 ```python
 import roboter.controller.conversation
 roboter.controller.conversation.talk_about_restaurant()
@@ -37,7 +37,7 @@ def talk_about_restaurant():
     restaurant_robot.ask_user_favorite()
     restaurant_robot.thank_you()
 ```
-#### robot.py
+#### roboter / models/  robot.py
 ```python
 """Defined a robot model """
 from roboter.models import ranking
@@ -132,7 +132,7 @@ class RestaurantRobot(Robot):
             'user_name': self.user_name,
         }))
 ```
-#### ranking.py
+#### roboter / models/  ranking.py
 ```python
 """Generates ranking model to write to CSV
 
