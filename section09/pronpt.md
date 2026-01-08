@@ -1,4 +1,5 @@
-演習のコードを自分で作成後、このプログラムを生成AIに作成させる場合のプロンプトをCopilotに出してもらいました。
+以下は、今回自分で演習で作成したプログラムをもとに、Copilotに作成してもらったプロンプトです。
+さらに、そのプロンプトをもとにコードを作成してもらいました。
 
 # プロンプト
 ```
@@ -40,3 +41,74 @@ Python で ROBOKO というプログラムを作りたいです。
 以上を満たす Python コードを作成してください。
 ```
 
+# Python コード（上記のプロンプトをもとにCopilotが作成したコード）
+```python
+import csv
+import os
+from termcolor import colored
+
+def main():
+    # --- 1. ユーザー名を尋ねる ---
+    user_name = input(colored("あなたの名前を教えてください：", "green")).strip()
+
+    csv_file = "roboko.csv"
+    rows = []
+
+    # --- 2. CSV が存在する場合の読み込み ---
+    if os.path.exists(csv_file):
+        with open(csv_file, newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                # count を整数として扱う
+                row["count"] = int(row["count"])
+                rows.append(row)
+
+        # count の降順でソート
+        rows.sort(key=lambda x: x["count"], reverse=True)
+
+        # ソートした rows を使って質問
+        for row in rows:
+            msg = f"私のおすすめのお店は {row['shop_name']} です。このレストランは好きですか？(Yes/No)："
+            answer = input(msg).strip().lower()
+            # Yes/No は count 更新に使わない（提示だけ）
+    else:
+        # --- 3. CSV が存在しない場合 ---
+        rows = []
+
+    # --- 4. ユーザーに好きなレストランを尋ねる ---
+    favorite = input(colored(f"{user_name}さんの好きなレストランを教えてください：", "green")).strip()
+
+    # 大文字小文字を無視して比較
+    favorite_lower = favorite.lower()
+    found = False
+
+    for row in rows:
+        if row["shop_name"].lower() == favorite_lower:
+            row["count"] += 1
+            found = True
+            break
+
+    if not found:
+        rows.append({"shop_name": favorite, "count": 1})
+
+    # --- 5. CSV に上書き保存 ---
+    with open(csv_file, "w", newline="", encoding="utf-8") as f:
+        fieldnames = ["shop_name", "count"]
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+
+        writer.writeheader()
+
+        # count は文字列で保存
+        for row in rows:
+            writer.writerow({
+                "shop_name": row["shop_name"],
+                "count": str(row["count"])
+            })
+
+    # --- 6. 終了メッセージ ---
+    print(colored("ありがとうございました。良い一日を！", "green"))
+
+
+if __name__ == "__main__":
+    main()
+```
