@@ -3,7 +3,7 @@
 ### 構成
 ```
 roboter/
-├── controller/      ← 会話の流れを制御（司令塔）
+├── [controller/](roboter_/_main.py)      ← 会話の流れを制御（司令塔）
 │   └── conversation.py
 ├── models/          ← データ処理（CSV・ロボットの動作）
 │   ├── ranking.py
@@ -24,7 +24,7 @@ roboter/
 import roboter.controller.conversation
 roboter.controller.conversation.talk_about_restaurant()
 ```
-#### conversation.py
+#### roboter / controller / conversation.py
 ```python
 """Controller for speaking with robot"""
 from roboter.models import robot
@@ -37,7 +37,7 @@ def talk_about_restaurant():
     restaurant_robot.ask_user_favorite()
     restaurant_robot.thank_you()
 ```
-#### roboter / models/  robot.py
+#### roboter / models / robot.py
 ```python
 """Defined a robot model """
 from roboter.models import ranking
@@ -132,7 +132,7 @@ class RestaurantRobot(Robot):
             'user_name': self.user_name,
         }))
 ```
-#### roboter / models/  ranking.py
+#### roboter / models / ranking.py
 ```python
 """Generates ranking model to write to CSV
 
