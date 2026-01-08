@@ -4,7 +4,7 @@
 ```
 roboter/
 ├── controller/      ← 会話の流れを制御（司令塔）
-│   └── [conversation.py](#roboter---controller---conversation.py)
+│   └── [conversation.py](#roboter--controller--conversationpy)
 ├── models/          ← データ処理（CSV・ロボットの動作）
 │   ├── ranking.py
 │   └── robot.py
