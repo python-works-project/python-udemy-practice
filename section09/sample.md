@@ -1,20 +1,20 @@
 ## お手本コード
 
 ### 構成
-roboter/
-├── controller/      ← 会話の流れを制御（司令塔）
-│   └── [conversation.py](#roboter--controller--conversationpy)
-├── models/          ← データ処理（CSV・ロボットの動作）
-│   ├── ranking.py
-│   └── robot.py
-├── templates/       ← メッセージテンプレート
-│   ├── hello.txt
-│   ├── greeting.txt
-│   ├── which_restaurant.txt
-│   └── good_by.txt
-├── views/           ← 画面表示（テンプレート読み込み）
-│   └── console.py
-└── main.py          ← アプリの入口
+roboter/  
+├── controller/      ← 会話の流れを制御（司令塔）  
+│   └── [conversation.py](#roboter--controller--conversationpy)  
+├── models/          ← データ処理（CSV・ロボットの動作）  
+│   ├── ranking.py  
+│   └── robot.py  
+├── templates/       ← メッセージテンプレート  
+│   ├── hello.txt  
+│   ├── greeting.txt  
+│   ├── which_restaurant.txt  
+│   └── good_by.txt  
+├── views/           ← 画面表示（テンプレート読み込み）  
+│   └── console.py  
+└── main.py          ← アプリの入口  
 
 
 ### 処理の流れ
