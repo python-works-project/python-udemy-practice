@@ -1,7 +1,6 @@
 ## お手本コード
-
+---
 ### 構成
-
 roboter/  
 ├── controller/                                                            ← 会話の流れを制御（司令塔）  
 │       └── [conversation.py](#roboter--controller--conversationpy)  
@@ -16,7 +15,7 @@ roboter/
 ├── views/                                                                ← 画面表示（テンプレート読み込み）  
 │       └── [console.py](#roboter--views--consolepy)  
 └── [main.py](#roboter--mainpy)                                           ← アプリの入口  
-
+---
 
 ### 処理の流れ
 #### roboter / main.py 
