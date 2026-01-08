@@ -1,6 +1,7 @@
 | 自分で作成したコード | 生成したコード |
 |----------------------|----------------|
-| ```python
+| 
+```python
 ## 自分で作成したコード
 import csv
 import os
@@ -70,7 +71,9 @@ with open(csv_name, 'w', newline='') as f:
     writer.writerows(rows)
 
 print(colored(msg3.format(user_name), color))
-``` | ```python
+```
+ | 
+```python
 ## プロンプトをもとに生成したコード
 import csv
 import os
@@ -137,6 +140,8 @@ def main():
     # --- 6. 終了メッセージ ---
     print(colored("ありがとうございました。良い一日を！", "green"))
 
-if __name__ == "__main__":``` |
+if __name__ == "__main__":
+```
+ |
 
 
