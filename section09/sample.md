@@ -15,7 +15,7 @@ roboter/
 │   └── [good_by.txt](#roboter--templates--good_bytxt)  
 ├── views/           ← 画面表示（テンプレート読み込み）  
 │   └── [console.py](#roboter--views--consolepy)  
-└── [main.py](#roboter--mainpy)          ← アプリの入口  
+└── [main.py](#roboter---mainpy-)          ← アプリの入口  
 
 roboter/  
 ├── controller/      ← 会話の流れを制御（司令塔）  
