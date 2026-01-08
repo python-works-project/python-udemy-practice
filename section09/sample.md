@@ -33,7 +33,7 @@ roboter/
 └── main.py          ← アプリの入口  
 
 ### 処理の流れ
-#### roboter / main.py
+#### roboter /' main.py '
 ```python
 import roboter.controller.conversation
 roboter.controller.conversation.talk_about_restaurant()
