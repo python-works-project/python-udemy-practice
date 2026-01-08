@@ -149,9 +149,12 @@
 </details>
 
 <details>
-<summary id="section9">📝  Section 9： 演習 🔽</summary>
+<summary id="section9">📝  Section 9： 演習 🔽
+
  - [演習](section09/code.md)
  - [プロンプト](section09/pronpt.md)
+
+</summary>
  
 </details>
 
