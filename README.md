@@ -144,7 +144,8 @@
  - [プロンプト](section09/pronpt.md)  
 
 </details>
-<--
+
+**********　以下未学習　**********
 <details>
 <summary id="section10">📝  Section 10： コードスタイル 🔽</summary>
  
@@ -209,7 +210,7 @@
 <summary id="section22">📝  Section 22： 非同期処理　asynico 🔽</summary>
 
 </details>
--->
+
 ---
 <div align="right"><a href="#top">🔼 TOPに戻る</a></div>
 
