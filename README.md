@@ -1,24 +1,13 @@
 <a id="top"></a>
-# 🐍 Python 学習ログ
-
-このリポジトリでは、講座の章ごとに学習ログをまとめています。  
-ターミナルで実行したログと、エディタで書いたコードを整理して記録しています。
-
----
-
-## 1. 目的
-- 学習の進捗管理  
-- ポートフォリオとして活用  
----
-
-## 2. 環境
+## 🐍 Python 学習ログ
+### １．環境
 -  Python 3.13.5 (Anaconda)  
 -  Visual Studio Code  
 -  Windows 11 (64bit)
 ---
 <div align="right"><a href="#top">🔼 TOPに戻る</a></div>
 
-## 3. 学習内容
+### ２．学習内容
 <small>
  🔽をクリックするとリンク一覧が展開され、そこから学習したコードにアクセスできます。<br>
 </small>
@@ -155,7 +144,7 @@
  - [プロンプト](section09/pronpt.md)  
 
 </details>
-
+<--
 <details>
 <summary id="section10">📝  Section 10： コードスタイル 🔽</summary>
  
@@ -220,16 +209,16 @@
 <summary id="section22">📝  Section 22： 非同期処理　asynico 🔽</summary>
 
 </details>
-
+-->
 ---
 <div align="right"><a href="#top">🔼 TOPに戻る</a></div>
 
-## 4. 手順
+### 4. 手順
 - [Pythonパッケージ作成と動作確認手順](operation_guide/python_package_workflow.md) 
 - [GitHubリポジトリからファイル削除](operation_guide/repository_file_delete.md) 
 - [GitHubリポジトリのクローンとフォルダ構成整理](operation_guide/repository_restructure.md) 
 
-## 5. その他
+### 5. その他
 - [Tips](docs/tips.md) 
 - [Pythonにおける (), [], {} の使い分け](docs/python_brackets_usage.md) 
 - [MarkDownファイルチートシート](docs/markdown_cheatsheet.md)
