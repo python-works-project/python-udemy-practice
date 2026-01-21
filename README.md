@@ -5,7 +5,6 @@
 -  Visual Studio Code  
 -  Windows 11 (64bit)
 ---
-<div align="right"><a href="#top">🔼 TOPに戻る</a></div>
 
 ### ２．学習内容
 <small>
@@ -145,7 +144,7 @@
 
 </details>
 
-**********　以下未学習　**********
+**********　以下未習　**********
 <details>
 <summary id="section10">📝  Section 10： コードスタイル 🔽</summary>
  
